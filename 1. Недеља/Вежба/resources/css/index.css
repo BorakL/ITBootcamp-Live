@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-header{
+    height: 10vh;
+    background-color: red;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 60vw;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: yellow;
+    margin-left: 15px;
+    padding: 1.2rem;
+}
+
+main{
+    background-color: green;
+    height: 60vh; /* view height */
+}
+
+footer{
+    background-color: cyan;
+    height: 20vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "photo1 photo1 photo3 photo4 photo4" "photo1 photo1 photo2 photo2 dfgdf" "fdg fdg photo2 photo2 dfgdf" "fdg fdg gdf gdf gdf";
+    height: 80vh;
+}
+  
+  .photo1 { background-color: black; grid-area: photo1; }
+  
+  .photo2 { background-color: white; grid-area: photo2; }
+  
+  .photo3 { background-color: green; grid-area: photo3; }
+  
+  .photo4 { background-color: blue; grid-area: photo4; }
+  
+  .fdg { background-color: yellow; grid-area: fdg; }
+  
+  .gdf { background-color: red; grid-area: gdf; }
+  
+  .dfgdf { background-color: peru; grid-area: dfgdf; }
+
+
+
