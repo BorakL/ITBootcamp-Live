@@ -106,8 +106,21 @@ console.log("5 % 3 =", 5 % 3); // 5 - 3 * 1 = 2
     console.log("(a >= b) || (c == b)",(a >= b) || (c == b))
 }
 
-// Оператори доделе ,  = , += , -= , /=, *= , %=
+// Оператори доделе ,  = , += , -= , /=, *=
 
 {
     let x = 5 + 3 * 42
+    console.log(x)
+    x += 5 // x добија вредност x + 5
+    console.log(x)
+    // x = x + 5
+
+    x -= 130 // x = x - 130
+    console.log(x)
+
+    x *= 10
+    console.log(x)
+
+    x /= 13
+    console.log(x)
 }
