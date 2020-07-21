@@ -105,7 +105,8 @@
 // 0 - 11
 
 {
-    let mesec = 0
+    let mesec = 1
+    let godina = 2000
     switch(mesec){
         case 0:
         case 2: 
@@ -117,7 +118,12 @@
             console.log('31')
             break
         case 1:
-            console.log('28 или 29')
+            if(godina % 4 === 0 && (godina % 100 !== 0 || godina % 400 === 0)){
+                console.log(`29`)
+            }
+            else{
+                console.log(`28`)
+            }
             break
         case 3: 
         case 5: 
@@ -133,16 +139,35 @@
 
 {
     let mesec = 0
-    if(mesec === 0 || mesec === 2 || mesec === 4){
-
+    let godina = 1972
+    if(mesec === 0 || mesec === 2 || mesec === 4 || mesec === 6 || mesec === 7 || mesec === 9 || mesec === 11){
+        console.log(31)
     }
     else if(mesec === 1){
-
+        if(godina % 4 === 0 && (godina % 100 !== 0 || godina % 400 === 0)){
+            console.log(`29`)
+        }
+        else{
+            console.log(`28`)
+        }
+    }
+    else if(mesec === 3 || mesec === 5 || mesec === 8 || mesec === 10){
+        console.log('30')
     }
 }
 
 // true / false
 // truthy / falsy
+
+// Math.pow(2,3)
+// 2 ** 3
+// Петља
+
+// x дељив са y
+// x % y 
+
+
+
 
 
 
