@@ -71,3 +71,20 @@ console.log(zbir)
 for(let i = 0; i < N; i++){
     printDivisibleBy3(i)
 }
+
+let x = 5
+
+x.repeat(3)
+
+
+
+
+
+// maxOdTri
+
+// let x = 30
+// let y = 30
+// let z = 30
+
+
+// console.log('Највећи од три броја: ' + maxOdTri(x,y,z))
