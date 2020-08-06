@@ -1,3 +1,6 @@
+let countries = [{name:'Србија',code:'rs'},'Немачка','Русија','Америка']
+let countryCodes = ['rs','de','ru','us']
+
 const dugme = document.getElementById('dugme')
 const count = document.getElementById('count')
 

@@ -78,11 +78,11 @@ sb.id = 'cars'
     const optGroup1 = document.createElement('optgroup')
     optGroup1.label = 'Swedish Cars'
 
-    const swedishCars = ['Volvo','Saab']
+    const swedishCars = [{name:'Volvo'},{name:'Saab'}]
     swedishCars.forEach(car => {
         const option = document.createElement('option')
-        option.textContent = car
-        option.value = car.toLowerCase()
+        option.textContent = car.name
+        option.value = car.name.toLowerCase()
         optGroup1.appendChild(option)
     })
     sb.appendChild(optGroup1)

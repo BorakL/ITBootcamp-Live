@@ -18,6 +18,13 @@ let x = ['1','dssa','1','sds','2131231','dsfsdfsdfs']
 console.log(x)
 
 x.sort((a,b) => a.length - b.length)
-
+.filter(el => el % 2 == 0)
+.map(el => el ** 2)
+ 
 console.log(x)
+
+
+
+
+
 
