@@ -56,10 +56,24 @@ function ulogujSe(){
     logoutButton.classList.remove('hide')
 }
 
+function registrujSe(username,password){
+    users.push({
+        username: username,
+        password: password,
+        isAdmin: false,
+        coins: 0
+    })
+    const p = document.createElement('p')
+    p.textContent = username + ' ' + 0
+    divUsers.append(p)
+}
+
+const invalidInput = () => usernameInput.value.trim().length === 0 || passwordInput.value.trim() === ''
+
 forma.addEventListener('submit', e =>{
     e.preventDefault()
     // Ни један инпут не сме бити празан (не сме садржати ни само белине (space,tab))
-    if(usernameInput.value.trim().length === 0 || passwordInput.value.trim() === ''){
+    if(invalidInput()){
         alert('Не сме празан унос')
         return
     }
@@ -83,16 +97,7 @@ forma.addEventListener('submit', e =>{
     }
     // Ако не постоји, направити новог - И улоговати га са тим подацима
     else{
-        users.push({
-            username: usernameInput.value,
-            password: passwordInput.value,
-            isAdmin: false,
-            coins: 0
-        })
-        const p = document.createElement('p')
-        p.textContent = usernameInput.value + ' ' + 0
-        divUsers.append(p)
-
+        registrujSe(usernameInput.value,passwordInput.value)
         ulogujSe()
     }
 
@@ -102,6 +107,10 @@ logoutButton.addEventListener('click', () => {
     forma.classList.remove('hide')
     divUsers.classList.add('hide')
     logoutButton.classList.add('hide')
+    console.log(divUsers.classList)
+    let niz = Array.from('dsfsdf')
+    console.log(niz)
+    console.log(niz.map(el => el + 'hello'))
 })
 
 
