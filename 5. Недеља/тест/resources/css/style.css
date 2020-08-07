@@ -1,0 +1,7 @@
+body {
+    height: 98.3vh;
+    background-image: url('../img/marko.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
