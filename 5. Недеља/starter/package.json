@@ -7,7 +7,7 @@
     "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "peranovicc",
+  "author": "SVEA , ITBootcamp",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.2",
