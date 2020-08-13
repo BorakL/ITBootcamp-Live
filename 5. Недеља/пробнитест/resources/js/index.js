@@ -146,6 +146,8 @@ btnInsert.addEventListener('click', () => {
     })
     console.log(fakture[fakture.length - 1])
     addElementToDOM(count)
+    let str = 'dsfksj.com/?jdsf=1'
+    let mapa = convertQueryToMap(str)
 
     count++
 })
