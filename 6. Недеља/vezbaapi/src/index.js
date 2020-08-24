@@ -32,7 +32,7 @@ console.log('Hello project');
 // let objekat = dohvatiPodatke()
 const app = document.querySelector('#app')
 
-
+let x = 5
 getUser(10)
         .then(res => {
             let p = document.createElement('p')
