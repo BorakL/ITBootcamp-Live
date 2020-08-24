@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { getAllUsers, getUser, postUser, postUser2, registerUser } from './service';
 
 console.log('Hello project');
@@ -55,7 +56,16 @@ postUser('pera')
         .then(res => console.log(res))
         .catch(error => console.log(error))
 
-postUser2({name: 'pera', job:'dskfs'})
+
+let user = {
+    name: 'pera',
+    job:'dskfs',
+    age: 34,
+    salary: 3242342,
+    country: 'rs'
+}
+
+postUser2(user)
         .then(res => {
             console.log(res)
         })
@@ -68,6 +78,9 @@ registerUser('eve.holt@reqres.in')
             p.textContent = error.response.data.error
             app.appendChild(p)
         })
+
+
+
 
 
 
