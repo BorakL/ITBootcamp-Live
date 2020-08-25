@@ -22,6 +22,7 @@ export const postUser2 = ({name,job}) => {
     return axios.post('https://reqres.in/api/users',{name,job})
 }
 
+
 export const registerUser = (email,password) => {
     return axios.post('https://reqres.in/api/register',{email,password})
 }

@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { getAllUsers, getUser, postUser, postUser2, registerUser } from './service';
 
 console.log('Hello project');
@@ -33,7 +32,6 @@ console.log('Hello project');
 // let objekat = dohvatiPodatke()
 const app = document.querySelector('#app')
 
-let x = 5
 getUser(10)
         .then(res => {
             let p = document.createElement('p')
