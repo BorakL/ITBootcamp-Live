@@ -7,7 +7,8 @@ export const LaunchList = (arr) => {
 
     // getAllLaunches().then(res => {
     //     res.data.forEach(launch => {
-    //         launchList.appendChild(Launch(launch))
+    //         if(launch.launch_year == 2019) // Само за филтрирање
+    //              launchList.appendChild(Launch(launch))
     //     })
     // })
     // setTimeout(() => {}, 1000)
