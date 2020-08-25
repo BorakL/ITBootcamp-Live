@@ -5,8 +5,8 @@ const Launch = (launch) => {
     // launch.launch_year
     // launch.rocket.rocket_name
     // launch.links.mission_patch  // slika
-    const launch = document.createElement('div')
-    launch.className = 'launch'
+    const launchContainer = document.createElement('div')
+    launchContainer.className = 'launch'
 
 }
 
