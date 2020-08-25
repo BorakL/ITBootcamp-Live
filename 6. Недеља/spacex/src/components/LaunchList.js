@@ -1,7 +1,21 @@
-export const LaunchList = () => {
+// import { getAllLaunches } from "../service"
+import { Launch } from "./Launch"
 
+export const LaunchList = (arr) => {
+    const launchList = document.createElement('div')
+    launchList.className = 'launch-list'
 
+    // getAllLaunches().then(res => {
+    //     res.data.forEach(launch => {
+    //         launchList.appendChild(Launch(launch))
+    //     })
+    // })
+    // setTimeout(() => {}, 1000)
 
+    arr.forEach(launch => {
+        launchList.appendChild(Launch(launch))
+    })
+    return launchList
 }
 
 // 1. Узети податке са сервера
