@@ -1,4 +1,4 @@
-import { LaunchList } from './components/LaunchList'
+import { LaunchList } from './components/LaunchList.js'
 import { getAllLaunches, getLaunchesByYear } from './service'
 
 const app = document.querySelector('#app')
@@ -8,7 +8,7 @@ const app = document.querySelector('#app')
 //     app.appendChild(LaunchList(res.data.filter(launch => launch.launch_year == 2019)))
 // })
 
-getLaunchesByYear(2006).then(res => {
+getLaunchesByYear(2019).then(res => {
     app.appendChild(LaunchList(res.data))
 })
 
