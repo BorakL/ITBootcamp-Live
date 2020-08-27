@@ -8,9 +8,14 @@ const app = document.querySelector('#app')
 //     app.appendChild(LaunchList(res.data.filter(launch => launch.launch_year == 2019)))
 // })
 
-getLaunchesByYear(2019).then(res => {
-    app.appendChild(LaunchList(res.data))
-})
+if(confirm('Да ли сте сигурни?')){
+    getLaunchesByYear(2019).then(res => {
+        app.appendChild(LaunchList(res.data))
+    })
+}
+else{
+    console.log('Није потврђено')
+}
 
 
 // Уместо свих лансирања, приказати само она из 2019. године
