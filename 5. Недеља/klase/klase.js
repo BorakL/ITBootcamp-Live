@@ -7,46 +7,46 @@
 // }
 
 
-// class Pravouganik {
-//     constructor(a, b) {
-//         this.sirina = a
-//         this.duzina = b
-//     }
+class Pravouganik {
+    constructor(a, b) {
+        this.sirina = a
+        this.duzina = b
+    }
 
-//     get duz() {
-//         return this.duzina
-//     }
-//     get sir() {
-//         return this.sirina
-//     }
+    get duz() {
+        return this.duzina
+    }
+    get sir() {
+        return this.sirina
+    }
 
-//     set duz(duzina) {
-//         this.duzina = duzina
-//     }
+    set duz(duzina) {
+        this.duzina = duzina
+    }
 
-//     povrsina() {
-//         return this.sirina * this.duzina
-//     }
+    povrsina() {
+        return this.sirina * this.duzina
+    }
 
-//     obim() {
-//         return this.sirina * 2 + this.duzina * 2
-//     }
+    obim() {
+        return this.sirina * 2 + this.duzina * 2
+    }
 
-//     opis() {
-//         // console.log(this);
-//         return `Pravougaonik sirine ${this.sirina} i duzine ${this.duzina}`
-//     }
+    opis() {
+        // console.log(this);
+        return `Pravougaonik sirine ${this.sirina} i duzine ${this.duzina}`
+    }
 
-// }
+}
 
-// let p1 = new Pravouganik(3, 4)
-// let p2 = new Pravouganik(5, 2)
+let p1 = new Pravouganik(3, 4)
+let p2 = new Pravouganik(5, 2)
 // console.log(p1.povrsina());
 // console.log(p2.povrsina());
 // console.log(p2.opis());
 // console.log(p1.opis());
 //console.log(p1.duz);
-//p1.duz = 2
+p1.duz = 2
 //console.log(p1.opis());
 
 //Napraviti klasu Sastojak koja sadrzi polja : ime kolicina i cena , ima metodu koja racuna ukupnu cenu
@@ -100,82 +100,12 @@ class Recept {
     }
 
     ukupnaCenaRecepta() {
-        // let cena = 0
-        // this.sastojci.forEach(sastojak => {
-        //     cena += sastojak.ukupnaCena()
-        // });
-        // return cena
 
-        return this.sastojci.reduce((total, num) => total + num.ukupnaCena(), 0)
     }
 
 }
 
-let rec1 = new Recept('Sendvic sa djumbirom', 'pocetni', sastojci1)
+let rec1 = new Recept('Sendvic sa djumbirom', 'Pocetni', sastojci1)
 let rec2 = new Recept('mafini', 'pocetni', sastojci2)
-let rec3 = new Recept('treci', 'pocetni', sastojci2)
-// rec1.ispis()
-// rec2.ispis()
-// console.log(rec1.ukupnaCenaRecepta());
-// console.log(rec2.ukupnaCenaRecepta());
-
-// let recepti = [rec1, rec2, rec3]
-// recepti.filter(rec => rec.tezina == 'pocetni').forEach(el => {
-//     console.log(el.ukupnaCenaRecepta());
-// })
-class Figura {
-    constructor(boja) {
-        this.boja = boja
-    }
-    getPovrsina() {
-        return
-    }
-    getObim() {
-        return
-    }
-}
-
-class Krug extends Figura {
-    constructor(boja, r) {
-        super(boja)
-        this.r = r
-    }
-    getPovrsina() {
-        return this.r ** 2 * Math.PI
-    }
-    getObim() {
-        return this.r * 2 * Math.PI
-    }
-
-}
-class Pravouganik extends Figura {
-    constructor(a, b, boja) {
-        super(boja)
-        this.a = a
-        this.b = b
-    }
-    getPovrsina() {
-        return this.a * this.b
-    }
-    getObim() {
-        return 2 * this.a + 2 * this.b
-    }
-}
-
-class Kvadrat extends Pravouganik {
-    constructor(a, boja) {
-        super(a, a, boja)
-    }
-}
-
-let f1 = new Figura('crvena')
-let f2 = new Krug('plava', 2)
-let f3 = new Pravouganik(2, 4, 'crna')
-let f4 = new Kvadrat(3, 'bela')
-
-let figure = [f1, f2, f3, f4]
-figure.forEach(oblik => {
-    console.log(oblik.getPovrsina(), oblik.getObim());
-})
-
-
+rec1.ispis()
+rec2.ispis()
