@@ -1,5 +1,5 @@
 import { LaunchList } from './components/LaunchList.js'
-import { getAllLaunches, getLaunchesByYear } from './service'
+import { getLaunchesByYear } from './service'
 
 const app = document.querySelector('#app')
 
