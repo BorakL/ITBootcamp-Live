@@ -42,7 +42,7 @@ search.addEventListener('input', () => {
 
 
 select.addEventListener('change', () => {
-    sastojci.innerHTML = ''
+
     let koktel = kokteli.find(el => el.idDrink == select.value)
 
     const filtered = Object.keys(koktel)
@@ -50,20 +50,20 @@ select.addEventListener('change', () => {
         .map(key => koktel[key])
 
     const li = document.createElement('li')
-
+    sastojci.innerHTML = ''
     let sastojciSaOpisom = []
     filtered.map(nazivSastojka => {
         getIngDescription(nazivSastojka).then(res => {
             sastojciSaOpisom.push(res.data.ingredients[0])
-            console.log(sastojciSaOpisom);
+
             let ispis = sastojciSaOpisom.map(sastojak =>
                 `<details><summary><b> ${sastojak.strIngredient}</b></summary> <br>
                  opis: ${sastojak.strDescription ? sastojak.strDescription : '/'} <br></details>`)
-            li.innerHTML = ispis
 
+            li.innerHTML = ispis
+            sastojci.append(li)
         })
     })
-    sastojci.append(li)
 
 })
 
