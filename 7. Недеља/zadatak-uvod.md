@@ -38,7 +38,8 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-)```
+)
+```
 
 2. Рефакторишите апликацију тако да садржи три компоненте (Header, Content, Ukupno)
 
