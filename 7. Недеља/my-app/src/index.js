@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Header = ({ ime,godine }) => {
+const Header = ({ ime }) => {
   // let ime = props.ime
  
   return (
@@ -10,11 +10,14 @@ const Header = ({ ime,godine }) => {
     </header>
   )
 }
-// JSX синтакса
+
+// JSX синтакса (JavaScript XML)
 const App = () => {
   let greet = 'Hello'
   let a = 5
   let b = 10
+
+  let imena = ['Pera',5,'Ana']
 
   const veci = (a,b) => {
     if(a > b)
@@ -24,9 +27,18 @@ const App = () => {
 
   return (
     <div>
-      <Header ime="Pera" godine="32" />
-      <Header ime="Zika" />
-      <Header ime="Ana" />
+      <Header ime={imena[0]} />
+      <Header ime={imena[1]} />
+      <Header ime={imena[2]} />
+      <header>
+        <h2>Hello {imena[0]}</h2>
+      </header>
+      <header>
+        <h2>Hello {imena[1]}</h2>
+      </header>
+      <header>
+        <h2>Hello {imena[2]}</h2>
+      </header>
       <p>{greet}</p>
       <p>{a} + {b} = {a + b}</p>
       <p>Већи од два броја је: 
