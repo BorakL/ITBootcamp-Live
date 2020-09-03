@@ -73,3 +73,10 @@
     ljudi.splice(index,1)
     console.log(ljudi)
 }
+
+let x = [31,34,898,54,35,3,435,34,5,345,34,5,34,534,5,34243,34,5]
+
+// CS50x
+// MIT - Algorithms
+
+sum += x.pop()

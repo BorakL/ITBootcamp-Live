@@ -1,32 +1,58 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-import Header from './Header';
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
 
-// React state
-// Компонента која садржи  state је stateful компонента
+const Statistic = ({text,value}) => {
+    return (
+        <tr>
+            <td>{text}</td>
+            <td>{value}</td>
+        </tr>
+    )
+}
+
+const Statistics = ({good,neutral,bad}) => {
+    // Only need these for statistics, so I don't include them in 
+    const total = good + neutral + bad
+    const average = (good - bad) / total
+    const positive = (good / total) * 100
+
+    if(!(good || bad || neutral)){ // (All values are zero - Check)
+        return (
+            <>
+            <p>Нема оцена</p>
+            </>
+        )
+    }
+    return (
+        <table>
+            <tbody>
+                <Statistic text="Позитивно" value ={good} />
+                <Statistic text="Неутрално" value = {neutral} />
+                <Statistic text="Негативно" value = {bad} />
+                <Statistic text="Укупно" value ={total} />
+                <Statistic text="Просек" value ={average} />
+                <Statistic text="Позитивно" value ={positive+'%'} />
+            </tbody>
+        </table>
+    )
+}
+
+const Button = ({handleClick,text}) => <button onClick={handleClick}>{text}</button>
+
 const App = () => {
-
-  const [name,setName] = useState('Pera')
-  const [counter,setCounter] = useState(0)
-
-  const handleKlik = () => {
-    setName('Zika')
-  }
-
-  // function renderCondition(){
-  //   if(counter === 0){
-  //     return 'Још увек није кликнуто'
-  //   }
-  //   else
-  //     return counter
-  // }
+  const [good, setGood] = useState(0)
+  const [neutral, setNeutral] = useState(0)
+  const [bad, setBad] = useState(0)
 
   return (
-    <>
-      <Header name={name} handleKlik={handleKlik} />
-      <p>{counter !== 0 ? counter: 'Још увек није кликнуто'}</p>
-      <button onClick={() => setCounter(counter + 1)}>ПОВЕЋАЈ БРОЈ</button>
-    </>
+    <div>
+        <h1>Додај оцену:</h1>
+        <Button handleClick={() => setGood(good + 1)} text='Позитивно' />
+        <Button handleClick={() => setNeutral(neutral + 1)} text='Неутраллно' />
+        <Button handleClick={() => setBad(bad + 1)} text='Негативно' />
+        <h1>Статистика:</h1>
+        <Statistics good={good} neutral={neutral} bad={bad} />
+    </div>
   )
 }
 
@@ -35,5 +61,4 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
-
+)
