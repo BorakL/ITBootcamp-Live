@@ -1,52 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import Header from './Header';
 
-const Header = ({ ime }) => {
-  // let ime = props.ime
- 
-  return (
-    <header>
-      <h2>Hello {ime}</h2>
-    </header>
-  )
-}
-
-// JSX синтакса (JavaScript XML)
+// React state
+// Компонента која садржи  state је stateful компонента
 const App = () => {
-  let greet = 'Hello'
-  let a = 5
-  let b = 10
 
-  let imena = ['Pera',5,'Ana']
+  const [name,setName] = useState('Pera')
+  const [counter,setCounter] = useState(0)
 
-  const veci = (a,b) => {
-    if(a > b)
-      return a
-    else return b
+  const handleKlik = () => {
+    setName('Zika')
   }
 
+  // function renderCondition(){
+  //   if(counter === 0){
+  //     return 'Још увек није кликнуто'
+  //   }
+  //   else
+  //     return counter
+  // }
+
   return (
-    <div>
-      <Header ime={imena[0]} />
-      <Header ime={imena[1]} />
-      <Header ime={imena[2]} />
-      <header>
-        <h2>Hello {imena[0]}</h2>
-      </header>
-      <header>
-        <h2>Hello {imena[1]}</h2>
-      </header>
-      <header>
-        <h2>Hello {imena[2]}</h2>
-      </header>
-      <p>{greet}</p>
-      <p>{a} + {b} = {a + b}</p>
-      <p>Већи од два броја је: 
-        {
-          veci(a,b)
-        }
-        </p>
-    </div>
+    <>
+      <Header name={name} handleKlik={handleKlik} />
+      <p>{counter !== 0 ? counter: 'Још увек није кликнуто'}</p>
+      <button onClick={() => setCounter(counter + 1)}>ПОВЕЋАЈ БРОЈ</button>
+    </>
   )
 }
 
