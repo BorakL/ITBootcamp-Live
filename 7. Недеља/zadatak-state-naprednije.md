@@ -27,8 +27,7 @@ const citati = [
   'Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe.',
   'If you tell the truth, you don\'t have to remember anything.',
   'Insanity is doing the same thing, over and over again, but expecting different results.',
-  'A day without sunshine is like, you know, night.',
-  
+  'A day without sunshine is like, you know, night.'
 ]
 
 ReactDOM.render(

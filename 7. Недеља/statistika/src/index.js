@@ -12,7 +12,7 @@ const App = () => {
     const [bad,setBad] = useState(0)
     const [niz,setNiz] = useState([])
 // [1,4,9,16,25] // [1,4,9,16,25]
-    let tmp = []
+    let tmp = [...niz]
 
     setNiz(niz.map(el => el ** 2))
 
