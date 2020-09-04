@@ -8,7 +8,7 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 
-const App = ({citati}) => {
+const App = ({ citati }) => {
   const [selected, setSelected] = useState(0) // Селектован је нулти цитат
 
   return (
@@ -26,11 +26,16 @@ const citati = [
   'Be yourself; everyone else is already taken.',
   'Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe.',
   'If you tell the truth, you don\'t have to remember anything.',
+  'Insanity is doing the same thing, over and over again, but expecting different results.',
+  'A day without sunshine is like, you know, night.',
+  
 ]
 
 ReactDOM.render(
-  <App citati={citati} />,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App citati={citati}/>
+    </React.StrictMode>,
+    document.getElementById('root')
 )
 ```
 
