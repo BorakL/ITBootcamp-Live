@@ -1,64 +1,44 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 
-const Statistic = ({text,value}) => {
+// uuid
+
+const Todo = ({todo}) => {
     return (
-        <tr>
-            <td>{text}</td>
-            <td>{value}</td>
-        </tr>
+        <p>{todo.task} -- {todo.done + ''}</p>
     )
 }
 
-const Statistics = ({good,neutral,bad}) => {
-    // Only need these for statistics, so I don't include them in 
-    const total = good + neutral + bad
-    const average = (good - bad) / total
-    const positive = (good / total) * 100
+const App = ({ lista }) => {
+    return (
+        <>
+            {lista.map(el => <Todo key={el.id} todo={el} />)}
+        </>
+    )
+}
 
-    if(!(good || bad || neutral)){ // (All values are zero - Check)
-        return (
-            <>
-            <p>Нема оцена</p>
-            </>
-        )
+ 
+const lista = [
+    {
+        id: 1,
+        task: 'Уради нешто',
+        done: true
+    },
+    {
+        id: 2,
+        task: 'Уради нешто drugo',
+        done: false
+    },
+    {
+        id: 3,
+        task: 'Уради нешто треће',
+        done: true
     }
-    return (
-        <table>
-            <tbody>
-                <Statistic text="Позитивно" value ={good} />
-                <Statistic text="Неутрално" value = {neutral} />
-                <Statistic text="Негативно" value = {bad} />
-                <Statistic text="Укупно" value ={total} />
-                <Statistic text="Просек" value ={average} />
-                <Statistic text="Позитивно" value ={positive+'%'} />
-            </tbody>
-        </table>
-    )
-}
-
-const Button = ({handleClick,text}) => <button onClick={handleClick}>{text}</button>
-
-const App = () => {
-  const [good, setGood] = useState(0)
-  const [neutral, setNeutral] = useState(0)
-  const [bad, setBad] = useState(0)
-
-  return (
-    <div>
-        <h1>Додај оцену:</h1>
-        <Button handleClick={() => setGood(good + 1)} text='Позитивно' />
-        <Button handleClick={() => setNeutral(neutral + 1)} text='Неутраллно' />
-        <Button handleClick={() => setBad(bad + 1)} text='Негативно' />
-        <h1>Статистика:</h1>
-        <Statistics good={good} neutral={neutral} bad={bad} />
-    </div>
-  )
-}
+]
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App lista={lista} />
+    </React.StrictMode>,
+    document.getElementById('root')
 )

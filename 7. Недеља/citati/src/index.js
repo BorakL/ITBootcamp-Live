@@ -11,6 +11,7 @@ const App = ({ citati }) => {
     tmp[selected]++
     setVotes(tmp)
   }
+  
   const updateBest = () => {
     votes[best] > (votes[selected] + 1) ? setBest(best) : setBest(selected)
   }
