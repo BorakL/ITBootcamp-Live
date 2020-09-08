@@ -1,42 +1,38 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { getAll } from './services';
+import { getTopStories, getStoryById } from './services';
 
 const App = () => {
 
-  const [users,setUsers] = useState([])
-  const [count,setCount] = useState(0)
+  const [storyIds, setStoryIds] = useState([])
+  const [stories,setStories] = useState([])
 
-  // useEffect  (componentDidMount)
 
   useEffect(() => {
-    getAll().then(res => {
-      // let tmp = [...users]
-      // tmp.push(...(res.data.data))
-
-      setUsers(res.data.data)
+    getTopStories().then(res => {
+      setStoryIds(res.data)
     })
-
-    // ствари које радимо само једном
   },[])
 
-  // Позива се на промену count-a
+
   useEffect(() => {
-    console.log('UseEffect: ',count)
-  },[count])
+    storyIds.forEach(id => {
+      getStoryById(id).then(res => {
+        setStories(prev => [...prev,res.data])
+      })
+    })
+  },[storyIds])
 
-  function uradiNesto(x){
-    console.log('direktno u fji',x)
-  } 
-
+  
 
   return (
     <>
-    <button onClick={() => {
-      setCount(count + 1)
-      uradiNesto(count)
-    }}>PPP</button>
-    {users.map(user => <p key={user.id}>{user.email}</p>)}
+      {stories.map(story => <p key={story.id}>{story.title}</p>)}
+      <button onClick={() => {
+        getJobbStories().then(res => {
+          setStoryIds(res.data)
+        })
+      }}>JOB</button>
     </>
   )
 }
