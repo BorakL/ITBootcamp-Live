@@ -12,7 +12,10 @@ export const Story = ({ id }) => {
 
 
     return(
+        <>
         <a href={story.url}>{story.title}</a>
+        <br></br>
+        </>
     )
 }
 

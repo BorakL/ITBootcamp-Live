@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { getTopStories, getStoryById } from './services';
+import { getTopStories, getJobStories, getShowStories, getAskStories } from './services';
 import { Story } from './components/Story'
 
 const App = () => {
-
   const [storyIds, setStoryIds] = useState([])
-
 
   useEffect(() => {
     getTopStories().then(res => {
@@ -14,14 +12,29 @@ const App = () => {
     })
   },[])
 
+
   return (
     <>
+    <button onClick={() => {
+      getJobStories().then(res => {
+        setStoryIds(res.data)
+      })
+    }}>JOB</button>
+    <button onClick={() => {
+      getShowStories().then(res => {
+        setStoryIds(res.data)
+      })
+    }}>Show</button>
+    <button onClick={() => {
+      getAskStories().then(res => {
+        setStoryIds(res.data)
+      })
+    }}>Ask</button>
+
+    <div>
       {storyIds.map(id => <Story key={id} id={id} />)}
-      <button onClick={() => {
-        getJobStories().then(res => {
-          setStoryIds(res.data)
-        })
-      }}>JOB</button>
+    </div>
+      
     </>
   )
 }
