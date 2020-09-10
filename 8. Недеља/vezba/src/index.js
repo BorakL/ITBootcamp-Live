@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom'
 
 import { v1 as uuidv1 } from 'uuid';
 
-// На клик параграфа за todo, променити стање done (и додати стилизацију)
-// Додати дугме delete које брише одређени todo
+
 const Todo = ({ todo,setTodos,todos }) => {
 
   const deleteById = (id) => {
@@ -34,24 +33,32 @@ const App = () => {
   const [todos,setTodos] = useState([])
   const [text,setText] = useState('')
 
+  const handleTextChange = (e) => {
+    setText(e.target.value)
+  }
+
+  const addTodo = (e) => {
+    e.preventDefault()
+    setTodos(todos.concat({id: uuidv1(),task: text,done: false}))
+    setText('')
+  }
+
   return (
     <>
-      <input 
-        onChange={(e) => {
-          setText(e.target.value)
-          console.log(e.target.value)
-        }}
-        value={text}
-      />
-      <button 
-        onClick={() => {
-          setTodos([...todos,{id: uuidv1(),task: text,done: false}])
-          setText('')
-        }}
-      >
-        Додај
-      </button>
-      {todos.map(el => <Todo key={el.id} todo={el} setTodos={setTodos} todos={todos} />)}
+      <form onSubmit={addTodo}>
+        <input 
+          onChange={handleTextChange} 
+          value={text} 
+        />
+        <button type="submit">Додај</button>
+      </form>
+      
+      {todos.length > 0 ? 
+        todos.map(el => <Todo key={el.id} todo={el} setTodos={setTodos} todos={todos} />)
+        :
+        <p className={5 > 3 ? 'precrtano' : null}>Нема још увек</p>
+      }
+      
     </>
   )
 }

@@ -22,7 +22,8 @@ const App = () => {
     }}>JOB</button>
     <button onClick={() => {
       getShowStories().then(res => {
-        setStoryIds(res.data)
+        // setStoryIds([...storyIds,...res.data])
+        setStoryIds(storyIds.concat(res.data))
       })
     }}>Show</button>
     <button onClick={() => {
