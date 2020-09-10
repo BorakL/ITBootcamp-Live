@@ -1,9 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-const Persons = () => {
+const Persons = ({ persons, filter }) => {
     return (
-        <p>Овде треба да стоји листа контаката</p>
+        <>
+        {
+            persons
+                .filter(person => person.name.toLowerCase().includes(filter.toLowerCase()))
+                .map(person => <p key={person.name}>{person.name}  -- {person.number}</p>)
+        }
+        </>
     )
-}
 
+}
 export default Persons

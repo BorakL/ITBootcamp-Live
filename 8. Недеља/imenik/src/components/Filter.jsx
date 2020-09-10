@@ -1,8 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-const Filter = () => {
+const Filter = ({setFilter}) => {
     return (
-        <p>Овде треба да стоји филтер</p>
+        <input onChange={(e) => {
+            setFilter(e.target.value)
+        }} />
     )
 }
 
