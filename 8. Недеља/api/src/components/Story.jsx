@@ -5,11 +5,20 @@ export const Story = ({ id }) => {
     const [story,setStory] = useState({})
 
     useEffect(() => {
+        let mounted = true
+
         getStoryById(id).then(res => {
-            setStory(res.data)
+            if(mounted)
+                setStory(res.data)
         })
+
+        return () => {mounted = false}
     },[])
 
+    // Lifecycle methods
+    // componentDidMount()
+    // componentDidUnmount()
+    // componentDidUpdate()
 
     return(
         <>

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const PersonForm = ({ persons, setPersons }) => {
     const [name, setName] = useState('')
     const [phone, setPhone] = useState('')
+    const [error,setError] = useState('')
 
     const isValid = (name, number) => name !== '' &&
                                       number !== '' &&
@@ -32,7 +33,13 @@ const PersonForm = ({ persons, setPersons }) => {
            }
        }
        else{
-           console.log('Неисправан унос')
+           if(name === '') setError('Име не сме бити празно')
+           else if(phone[0] !== '+') setError('Број мора почињати са +')
+           else setError('Грешка у уносу')
+
+           setTimeout(() => {
+               setError('')
+           },1555)
        }
     }
 
@@ -47,6 +54,7 @@ const PersonForm = ({ persons, setPersons }) => {
             <div>
                 <button type="submit">Додај</button>
             </div>
+            <p>{error}</p>
         </form>
     )
 

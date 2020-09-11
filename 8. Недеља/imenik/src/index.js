@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import Filter from './components/Filter'
@@ -34,6 +34,14 @@ const App = () => {
       }
   ])
     const [filter, setFilter] = useState('')
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            console.log(persons[persons.length-1])
+        },2000)
+
+        return () => clearInterval(interval)
+    },[persons])
 
     return (
         <div>
