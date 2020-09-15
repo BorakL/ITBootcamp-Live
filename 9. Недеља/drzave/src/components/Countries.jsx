@@ -10,11 +10,11 @@ const Countries = ({countries,region}) => {
 
     return (
         <>
-        <div>
-            {countries.slice(count,count+10).map(country => <Country key={country.alpha2Code} country={country} region={region} />)}
-        </div>
-        <button disabled={count === 0} onClick={() => setCount(count - 10)}>BACK</button>
-        <button disabled={count > countries.length - 10} onClick={() => setCount(count + 10)}>NEXT</button>
+            <div>
+                {countries.slice(count,count+10).map(country => <Country key={country.alpha2Code} country={country} region={region} />)}
+            </div>
+            <button disabled={count === 0} onClick={() => setCount(count - 10)}>BACK</button>
+            <button disabled={count > countries.length - 10} onClick={() => setCount(count + 10)}>NEXT</button>
         </>
     )
 }
