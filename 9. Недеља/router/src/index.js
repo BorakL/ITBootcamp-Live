@@ -2,48 +2,42 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Citati from './components/Citati';
+import Footer from './components/Footer';
+import Form from './components/Form';
 
-const Home = () => {
+const Nav = () => {
   return (
-    <p>HOME</p>
-  )
-}
-
-const About = () => {
-  return (
-    <p>About</p>
-  )
-}
-
-const Contact = () => {
-  return (
-    <p>Contact</p>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/create">Create New</Link>
+    </nav>
   )
 }
 
 const App = () => {
+  const [citati,setCitati] = useState([])
 
   return (
-    <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/about">About</Link>
-      </nav>
-    
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/about" render={() => <About />} />
-      </Switch>
+    <>
+      <Router>
+        <Nav />
+      
+        <Switch>
+          <Route exact path="/">
+            <Citati citati={citati} />
+          </Route>
+          <Route path="/create">
+            <Form setCitati={setCitati} />
+          </Route>
+        </Switch>
 
-    </Router>
+        <Footer />
+      </Router>
+    </>
   )
 }
+
 
 ReactDOM.render(
   <React.StrictMode>
