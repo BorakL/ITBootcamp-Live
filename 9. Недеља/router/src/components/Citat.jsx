@@ -1,12 +1,19 @@
 import React from 'react'
+import { Redirect, useParams } from 'react-router-dom'
 
-const Citat = ({author,url,text}) => {
-    return (
+const Citat = ({citati}) => {
+    const id = useParams().id
+    const citat = citati.find(el => el.id === id)
+
+    return citat ? 
+    (
         <div>
-            <p>Аутор: {author}</p>
-            <p><a href={url} target={'_blank'} rel="noopener noreferrer">Цитат:</a> {text}</p>
+            <p>Аутор: {citat.autor}</p>
+            <p><a href={citat.url} target={'_blank'} rel="noopener noreferrer">Цитат:</a> {citat.text}</p>
         </div>
     )
+    :
+    <Redirect to="/" />
 }
 
 export default Citat

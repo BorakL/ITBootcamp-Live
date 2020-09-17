@@ -1,15 +1,16 @@
 import React from 'react'
-import Citat from './Citat'
+import { Link } from 'react-router-dom'
 
 const Citati = ({citati}) => {
     return (
         <div>
-            {citati.map(citat => <Citat 
-                                    key={citat.id} 
-                                    author={citat.author} 
-                                    text={citat.text} 
-                                    url={citat.url} 
-                                />)}
+            <h1>Цитати</h1>
+            {citati.map(citat => <div key={citat.id}>
+                                    <Link to={`/citat/${citat.id}`}>
+                                        {citat.text}
+                                    </Link>
+                                </div>
+                                )}
         </div>
     )
 }

@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import { v1 as uuidv1 } from 'uuid'
+import { postQuote } from '../services'
 
 const Form = ({setCitati}) => {
     const [author,setAuthor] = useState('')
     const [text,setText] = useState('')
     const [url,setUrl] = useState('')
 
+    const history = useHistory()
+
     const dodajCitat = (e) => {
         e.preventDefault()
 
         let tmp = {
-            author: author,
+            autor: author,
             text: text,
             url: url,
             id: uuidv1()
         }
         
         setCitati(prev => prev.concat(tmp))
+        postQuote(tmp)
+        history.push('/')
     }
 
     return (

@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Citat from './components/Citat';
 import Citati from './components/Citati';
 import Footer from './components/Footer';
 import Form from './components/Form';
+import { getAllQuotes } from './services';
 
 const Nav = () => {
   return (
@@ -18,20 +20,38 @@ const Nav = () => {
 const App = () => {
   const [citati,setCitati] = useState([])
 
+  // let tmp = []
+  // for(let i = 0; i < citati.length; i++){
+  //   let row = []
+  //   for(let j = 0; j < citati[i].length; j++){
+  //     row.push({...citati[i][j]})
+  //   }
+  // }
+
+
+  useEffect(() => {
+    getAllQuotes().then(res => {
+      setCitati(res.data)
+    })
+  },[])
+
   return (
     <>
       <Router>
         <Nav />
-      
+        <hr />
         <Switch>
           <Route exact path="/">
-            <Citati citati={citati} />
+            <Citati citati={x} />
           </Route>
           <Route path="/create">
             <Form setCitati={setCitati} />
           </Route>
+          <Route path="/citat/:id">
+            <Citat citati={citati} />
+          </Route>
         </Switch>
-
+        <hr />
         <Footer />
       </Router>
     </>
