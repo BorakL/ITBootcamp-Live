@@ -1,1110 +1,1121 @@
 {
-    "lecturers": [
-        {
-            "id": "lec-1",
-            "name": "lecturer1",
-            "password": "lecturer1",
-            "email": "lecturer1@test.com",
-            "courses": [
-                1
-            ]
-        },
-        {
-            "id": "lec-2",
-            "name": "lecturer2",
-            "password": "lecturer2",
-            "email": "lecturer2@test.com",
-            "courses": [
-                2
-            ]
-        },
-        {
-            "id": "TEST",
-            "name": "lecturer2",
-            "password": "lecturer2",
-            "email": "lecturer2@test.com",
-            "courses": [
-                3,2
-            ]
-        }
-    ],
-    "students": [
-        {
-            "id": "7fa48b92-1bf3-49bd-b331-dc20e0312654",
-            "first_name": "Pera",
-            "last_name": "Peric",
-            "email": "student1@test.com",
-            "courses": [
-                1,
-                3
-            ],
-            "password": "student1"
-        },
-        {
-            "id": "780b798a-dc3d-4639-a519-52789c4c8c4b",
-            "first_name": "Sharia",
-            "last_name": "Hennemann",
-            "email": "shennemann1@state.gov",
-            "courses": [
-                2
-            ],
-            "password": "km0TCsRULZ"
-        },
-        {
-            "id": "29a763c7-5849-4719-8077-fd09d8d4547d",
-            "first_name": "Rutger",
-            "last_name": "Luff",
-            "email": "rluff2@ca.gov",
-            "courses": [
-                3
-            ],
-            "password": "LeEgMOpR"
-        },
-        {
-            "id": "b8469b82-f07c-4c5b-bdea-8c7b905c44ae",
-            "first_name": "Gerry",
-            "last_name": "Dando",
-            "email": "gdando3@wiley.com",
-            "courses": [
-                4
-            ],
-            "password": "JhEyLwv"
-        },
-        {
-            "id": "5a08ea6a-22b1-442d-8949-2afee3256834",
-            "first_name": "Ambrosio",
-            "last_name": "Upex",
-            "email": "aupex4@shinystat.com",
-            "courses": [
-                2
-            ],
-            "password": "Q1zJGzh"
-        },
-        {
-            "id": "84700572-6631-47db-b5e7-8a952dc58448",
-            "first_name": "Jan",
-            "last_name": "Luxen",
-            "email": "jluxen5@apple.com",
-            "courses": [
-                2
-            ],
-            "password": "cdluwrQYTGaN"
-        },
-        {
-            "id": "e1a55c22-951b-4e1f-9ab0-c8fa47ca8a34",
-            "first_name": "Donaugh",
-            "last_name": "Burvill",
-            "email": "dburvill6@who.int",
-            "courses": [
-                1
-            ],
-            "password": "YDZxqB"
-        },
-        {
-            "id": "899583de-4ab2-4b91-8893-75367af9a215",
-            "first_name": "Quentin",
-            "last_name": "Whines",
-            "email": "qwhines7@utexas.edu",
-            "courses": [
-                3
-            ],
-            "password": "bDYdNGbL970"
-        },
-        {
-            "id": "17c7bd2a-fa28-47a8-9a30-b3a69975f399",
-            "first_name": "Chery",
-            "last_name": "McLeoid",
-            "email": "cmcleoid8@biglobe.ne.jp",
-            "courses": [
-                1
-            ],
-            "password": "15vTeWTYy9"
-        },
-        {
-            "id": "18f250da-55a3-4f55-9f4f-4aeb3afca5d5",
-            "first_name": "Reggie",
-            "last_name": "Fowley",
-            "email": "rfowley9@cornell.edu",
-            "courses": [
-                1
-            ],
-            "password": "eKxpVNWm"
-        },
-        {
-            "id": "e685dbe2-3d79-4529-acab-077c9aa74128",
-            "first_name": "Devinne",
-            "last_name": "Ruthen",
-            "email": "druthena@360.cn",
-            "courses": [
-                4
-            ],
-            "password": "HZWXLKCx9"
-        },
-        {
-            "id": "fa69bf06-78ea-4a02-8b0e-e240b0b16f55",
-            "first_name": "Audre",
-            "last_name": "Molesworth",
-            "email": "amolesworthb@privacy.gov.au",
-            "courses": [
-                3
-            ],
-            "password": "gjCXmiG"
-        },
-        {
-            "id": "c5111cbb-6f1c-412c-9b83-198376a87d8a",
-            "first_name": "Job",
-            "last_name": "Edginton",
-            "email": "jedgintonc@myspace.com",
-            "courses": [
-                1
-            ],
-            "password": "8QV2vcct"
-        },
-        {
-            "id": "4663dd28-b456-49b5-b44f-c2a8d7681c08",
-            "first_name": "Mikael",
-            "last_name": "McEachern",
-            "email": "mmceachernd@who.int",
-            "courses": [
-                2
-            ],
-            "password": "WuIebG3E"
-        },
-        {
-            "id": "e53311a7-ecdb-4690-8052-f05ed3bd8393",
-            "first_name": "Jolynn",
-            "last_name": "Guillet",
-            "email": "jguillete@w3.org",
-            "courses": [
-                1
-            ],
-            "password": "lfbB0c"
-        },
-        {
-            "id": "2e039b01-61b0-4470-a09e-0c2b71fc4680",
-            "first_name": "Cherish",
-            "last_name": "Childers",
-            "email": "cchildersf@cbc.ca",
-            "courses": [
-                2
-            ],
-            "password": "IMNvap"
-        },
-        {
-            "id": "0187f172-f198-49b8-8588-45c8fe1de949",
-            "first_name": "Hillary",
-            "last_name": "Haack",
-            "email": "hhaackg@quantcast.com",
-            "courses": [
-                3
-            ],
-            "password": "HsaeiBK3C"
-        },
-        {
-            "id": "f7ee3c2e-ce37-4934-ba60-def4984d4f3a",
-            "first_name": "Quill",
-            "last_name": "Collumbell",
-            "email": "qcollumbellh@discuz.net",
-            "courses": [
-                3
-            ],
-            "password": "nafTKBn"
-        },
-        {
-            "id": "36eae79c-2cb8-442d-8ef9-8bb0080bd713",
-            "first_name": "Raimund",
-            "last_name": "McLugaish",
-            "email": "rmclugaishi@tmall.com",
-            "courses": [
-                4
-            ],
-            "password": "lqRcdN"
-        },
-        {
-            "id": "94732ddc-9e59-4967-ab50-9bca74aecdca",
-            "first_name": "Clarisse",
-            "last_name": "Geck",
-            "email": "cgeckj@statcounter.com",
-            "courses": [
-                2
-            ],
-            "password": "4esRZ2Pm"
-        },
-        {
-            "id": "2227b76a-f584-496a-9910-8c3fe16d177d",
-            "first_name": "Fleming",
-            "last_name": "Laight",
-            "email": "flaightk@yandex.ru",
-            "courses": [
-                2
-            ],
-            "password": "Ehj9tc1F2l"
-        },
-        {
-            "id": "675de583-217b-41cf-bafe-9f2bfd44936f",
-            "first_name": "Neilla",
-            "last_name": "Rasp",
-            "email": "nraspl@macromedia.com",
-            "courses": [
-                1
-            ],
-            "password": "Xw81JxGz"
-        },
-        {
-            "id": "7c8ba1c0-1a4a-495a-bcc0-e3ce22650ce7",
-            "first_name": "Lorianna",
-            "last_name": "Candlin",
-            "email": "lcandlinm@wsj.com",
-            "courses": [
-                3
-            ],
-            "password": "sVq1y5Nnul"
-        },
-        {
-            "id": "f70e1e34-a140-4591-8f29-db0bd1005396",
-            "first_name": "Sydel",
-            "last_name": "Boat",
-            "email": "sboatn@studiopress.com",
-            "courses": [
-                4
-            ],
-            "password": "oklDkPbcz6"
-        },
-        {
-            "id": "6640bf26-9a85-4351-8050-91c105331917",
-            "first_name": "Hollyanne",
-            "last_name": "Dignon",
-            "email": "hdignono@pinterest.com",
-            "courses": [
-                1
-            ],
-            "password": "mBSakHMM"
-        },
-        {
-            "id": "e02498d2-1f5e-4175-a318-792317041d94",
-            "first_name": "Yorker",
-            "last_name": "Rodriguez",
-            "email": "yrodriguezp@nba.com",
-            "courses": [
-                1
-            ],
-            "password": "QmqpVgcdMca"
-        },
-        {
-            "id": "24abed98-bce8-49c8-ae8e-2b9106f8ae81",
-            "first_name": "Bibby",
-            "last_name": "Blackhall",
-            "email": "bblackhallq@thetimes.co.uk",
-            "courses": [
-                1
-            ],
-            "password": "HT3MgDzPaW"
-        },
-        {
-            "id": "0d3572f2-4b53-473d-81b1-9b6702d00ae7",
-            "first_name": "Birgitta",
-            "last_name": "Sanja",
-            "email": "bsanjar@marriott.com",
-            "courses": [
-                2
-            ],
-            "password": "uYsP5Y0jyK"
-        },
-        {
-            "id": "dd35b976-4736-4bf2-aa5e-2ebb9ae69caa",
-            "first_name": "Marshal",
-            "last_name": "Maysor",
-            "email": "mmaysors@lycos.com",
-            "courses": [
-                1
-            ],
-            "password": "tm502dLGWqXP"
-        },
-        {
-            "id": "dc6fcb1b-c75c-40b8-9cfa-6c93a664a69b",
-            "first_name": "Godfrey",
-            "last_name": "Keary",
-            "email": "gkearyt@elpais.com",
-            "courses": [
-                2
-            ],
-            "password": "zeGEjy"
-        },
-        {
-            "id": "fc220ea8-808b-434b-be1d-8f10f8f0619f",
-            "first_name": "Brandise",
-            "last_name": "Forsythe",
-            "email": "bforsytheu@samsung.com",
-            "courses": [
-                2
-            ],
-            "password": "C6Me9OYI"
-        },
-        {
-            "id": "61414fc8-688d-493f-b6da-44a4f69c6ee4",
-            "first_name": "Kore",
-            "last_name": "Meany",
-            "email": "kmeanyv@businessinsider.com",
-            "courses": [
-                3
-            ],
-            "password": "rax5V2dHny"
-        },
-        {
-            "id": "344e8e04-61ab-4c26-9253-0298bb9c2e45",
-            "first_name": "Roma",
-            "last_name": "Northcliffe",
-            "email": "rnorthcliffew@behance.net",
-            "courses": [
-                3
-            ],
-            "password": "o2kqRSq"
-        },
-        {
-            "id": "a0d3fb5b-677e-4405-835e-c6064f1e287f",
-            "first_name": "Lucas",
-            "last_name": "Tollet",
-            "email": "ltolletx@fema.gov",
-            "courses": [
-                3
-            ],
-            "password": "OQBZ9XgL"
-        },
-        {
-            "id": "4226417d-32dc-498d-a490-ff3e5817bb74",
-            "first_name": "Lorianne",
-            "last_name": "Nansom",
-            "email": "lnansomy@gnu.org",
-            "courses": [
-                2
-            ],
-            "password": "J31Jgibp7"
-        },
-        {
-            "id": "fa0e5fe7-50af-4ebb-892d-48b1a52ea18e",
-            "first_name": "Irina",
-            "last_name": "Yelden",
-            "email": "iyeldenz@japanpost.jp",
-            "courses": [
-                3
-            ],
-            "password": "9DT1SSubF"
-        },
-        {
-            "id": "4a513d47-2e08-47bf-bf25-5fc61dbc133e",
-            "first_name": "Mora",
-            "last_name": "Connerly",
-            "email": "mconnerly10@blogtalkradio.com",
-            "courses": [
-                2
-            ],
-            "password": "p2lxe0zD"
-        },
-        {
-            "id": "8d921b99-e11c-4a11-b247-d18217d0ca71",
-            "first_name": "Cam",
-            "last_name": "Doni",
-            "email": "cdoni11@hc360.com",
-            "courses": [
-                2
-            ],
-            "password": "ID61r3kJvMnN"
-        },
-        {
-            "id": "b09f948d-eabc-43e9-96fe-22601a388739",
-            "first_name": "Gillan",
-            "last_name": "Longmead",
-            "email": "glongmead12@live.com",
-            "courses": [
-                1
-            ],
-            "password": "IeT93q8"
-        },
-        {
-            "id": "8fb2c8b1-715d-4313-b5b9-956b07bea228",
-            "first_name": "Ossie",
-            "last_name": "Banville",
-            "email": "obanville13@netlog.com",
-            "courses": [
-                1
-            ],
-            "password": "pV7eRrrW"
-        },
-        {
-            "id": "1737acf2-b9ed-40e0-bf9b-e74d9342ace3",
-            "first_name": "Mora",
-            "last_name": "Tattoo",
-            "email": "mtattoo14@blinklist.com",
-            "courses": [
-                3
-            ],
-            "password": "mHrRiyWoL"
-        },
-        {
-            "id": "0cc1e1e8-a7ae-4d2d-b00a-8a7571240397",
-            "first_name": "Franchot",
-            "last_name": "Mewburn",
-            "email": "fmewburn15@discuz.net",
-            "courses": [
-                2
-            ],
-            "password": "bvR4Rx4"
-        },
-        {
-            "id": "55279f0c-7712-4db3-a7e5-082fd1286110",
-            "first_name": "Kaitlyn",
-            "last_name": "Tunno",
-            "email": "ktunno16@earthlink.net",
-            "courses": [
-                4
-            ],
-            "password": "QT2pCIZXp"
-        },
-        {
-            "id": "4bc2a20b-e562-4f88-a6f7-e7a15fb41f16",
-            "first_name": "Ianthe",
-            "last_name": "Perrelli",
-            "email": "iperrelli17@webnode.com",
-            "courses": [
-                4
-            ],
-            "password": "39tI1LcuxOtQ"
-        },
-        {
-            "id": "72e98eac-90e7-47a9-bc26-1fea50ea4db1",
-            "first_name": "Melonie",
-            "last_name": "d'Arcy",
-            "email": "mdarcy18@ameblo.jp",
-            "courses": [
-                4
-            ],
-            "password": "1KutLXLepTGf"
-        },
-        {
-            "id": "25d967db-8a85-4f46-af4e-cf912da3f435",
-            "first_name": "Fayette",
-            "last_name": "Aspenlon",
-            "email": "faspenlon19@digg.com",
-            "courses": [
-                1
-            ],
-            "password": "HjkCvqm8"
-        },
-        {
-            "id": "60fb8067-78a9-4937-b77e-a1521dc72951",
-            "first_name": "Michael",
-            "last_name": "Seakes",
-            "email": "mseakes1a@cornell.edu",
-            "courses": [
-                1
-            ],
-            "password": "4ppCev"
-        },
-        {
-            "id": "647b626d-9815-48c8-9141-bc6958b89a55",
-            "first_name": "Bard",
-            "last_name": "Jeanin",
-            "email": "bjeanin1b@archive.org",
-            "courses": [
-                2
-            ],
-            "password": "GpTZweavEw"
-        },
-        {
-            "id": "55afa3fc-79f5-4537-a4b8-16ae504035e5",
-            "first_name": "Ellynn",
-            "last_name": "Sugar",
-            "email": "esugar1c@jiathis.com",
-            "courses": [
-                4
-            ],
-            "password": "SqQoGTVsl"
-        },
-        {
-            "id": "3ed6560e-5985-453f-b3d6-083eca64394d",
-            "first_name": "Myranda",
-            "last_name": "Message",
-            "email": "mmessage1d@hexun.com",
-            "courses": [
-                3
-            ],
-            "password": "9q8Lytl"
-        },
-        {
-            "id": "bdea457b-ccef-4865-9b8b-2fb672000eca",
-            "first_name": "Devan",
-            "last_name": "Usborn",
-            "email": "dusborn1e@sfgate.com",
-            "courses": [
-                1
-            ],
-            "password": "Do98tvQEAY"
-        },
-        {
-            "id": "0595f954-c4c9-444b-9ecf-0aaa5416ad98",
-            "first_name": "Meredithe",
-            "last_name": "Raw",
-            "email": "mraw1f@bizjournals.com",
-            "courses": [
-                3
-            ],
-            "password": "CVthd8f"
-        },
-        {
-            "id": "d1e6275d-2bfa-442e-a7b8-4b6290785336",
-            "first_name": "Nikoletta",
-            "last_name": "Clewes",
-            "email": "nclewes1g@disqus.com",
-            "courses": [
-                4
-            ],
-            "password": "sqFYJ2"
-        },
-        {
-            "id": "8fd1de14-def9-45dd-80f8-6c8c9d466f51",
-            "first_name": "Shelagh",
-            "last_name": "Dashper",
-            "email": "sdashper1h@reverbnation.com",
-            "courses": [
-                1
-            ],
-            "password": "xpGInAu"
-        },
-        {
-            "id": "1fc310d3-93a5-4749-8dbb-d92d9dc9806a",
-            "first_name": "Madelin",
-            "last_name": "Malkin",
-            "email": "mmalkin1i@time.com",
-            "courses": [
-                1
-            ],
-            "password": "yirQUz9P"
-        },
-        {
-            "id": "734854c3-1ad4-42d2-82e3-4849493ce819",
-            "first_name": "Franklin",
-            "last_name": "Cattanach",
-            "email": "fcattanach1j@nytimes.com",
-            "courses": [
-                1
-            ],
-            "password": "CD4h3AHHJ95"
-        },
-        {
-            "id": "6ddb0231-c973-460a-8cab-432091bc85e0",
-            "first_name": "Loutitia",
-            "last_name": "Wilfinger",
-            "email": "lwilfinger1k@google.de",
-            "courses": [
-                2
-            ],
-            "password": "tFEcLOd"
-        },
-        {
-            "id": "8b160e9e-af08-4ada-9776-40f727e5e98e",
-            "first_name": "Shawn",
-            "last_name": "Ogus",
-            "email": "sogus1l@wikimedia.org",
-            "courses": [
-                2
-            ],
-            "password": "aE846ug"
-        },
-        {
-            "id": "b14496cc-fdef-4209-bb8f-8af49222393f",
-            "first_name": "Thayne",
-            "last_name": "Pickthorne",
-            "email": "tpickthorne1m@gravatar.com",
-            "courses": [
-                1
-            ],
-            "password": "V3exjDJN2"
-        },
-        {
-            "id": "dba778db-e339-48ea-96d6-4462119c9fab",
-            "first_name": "Amalea",
-            "last_name": "Pell",
-            "email": "apell1n@theguardian.com",
-            "courses": [
-                4
-            ],
-            "password": "VW9eorX"
-        },
-        {
-            "id": "5a35f2ad-e8b4-4e70-9cf9-2f3d4e5dc17f",
-            "first_name": "Livvie",
-            "last_name": "Sharpus",
-            "email": "lsharpus1o@hao123.com",
-            "courses": [
-                1
-            ],
-            "password": "YcZR9i6tY9"
-        },
-        {
-            "id": "eda3d187-4d2b-4519-99e5-412b7cc0ae06",
-            "first_name": "Rog",
-            "last_name": "Fuke",
-            "email": "rfuke1p@xrea.com",
-            "courses": [
-                2
-            ],
-            "password": "6HfWlrzoDn"
-        },
-        {
-            "id": "8387684e-2b07-4c7d-96fa-6d8af90ebdd4",
-            "first_name": "Emmalee",
-            "last_name": "Sollime",
-            "email": "esollime1q@nhs.uk",
-            "courses": [
-                1
-            ],
-            "password": "EeBc7t"
-        },
-        {
-            "id": "d69cda90-85ae-4d59-ae96-2dff4f39682c",
-            "first_name": "Parrnell",
-            "last_name": "Gandrich",
-            "email": "pgandrich1r@myspace.com",
-            "courses": [
-                2
-            ],
-            "password": "t0LcEdP"
-        },
-        {
-            "id": "8c841837-a3cd-4fca-9be8-9eb4073a11bb",
-            "first_name": "Demetria",
-            "last_name": "Growy",
-            "email": "dgrowy1s@boston.com",
-            "courses": [
-                4
-            ],
-            "password": "cGrxS1iO"
-        },
-        {
-            "id": "01907c86-eba9-4f47-b31c-eedaed5257ea",
-            "first_name": "Daron",
-            "last_name": "Swadden",
-            "email": "dswadden1t@npr.org",
-            "courses": [
-                4
-            ],
-            "password": "VfsCgEhsxpYC"
-        },
-        {
-            "id": "d8f87f65-3fa5-4401-9443-b4b95f57756e",
-            "first_name": "Margarete",
-            "last_name": "Davage",
-            "email": "mdavage1u@businessinsider.com",
-            "courses": [
-                2
-            ],
-            "password": "C5R0S3wfKN5u"
-        },
-        {
-            "id": "4aa94b75-462b-4f41-9209-5ca92a1900c3",
-            "first_name": "Jeremy",
-            "last_name": "Lindenfeld",
-            "email": "jlindenfeld1v@addthis.com",
-            "courses": [
-                4
-            ],
-            "password": "nICOMkM"
-        },
-        {
-            "id": "b530d486-ba0b-4bea-83b9-9d43838a30fe",
-            "first_name": "Hildy",
-            "last_name": "Cornthwaite",
-            "email": "hcornthwaite1w@deviantart.com",
-            "courses": [
-                3
-            ],
-            "password": "bgZgnL"
-        },
-        {
-            "id": "78608850-626f-4592-bbd7-1ed91ee099dd",
-            "first_name": "Harmony",
-            "last_name": "Taffley",
-            "email": "htaffley1x@google.com.br",
-            "courses": [
-                4
-            ],
-            "password": "bhu7WxNTj4SG"
-        },
-        {
-            "id": "93d30f85-0e43-4c6c-97ee-b2022b10df51",
-            "first_name": "Mellisa",
-            "last_name": "Marks",
-            "email": "mmarks1y@google.ru",
-            "courses": [
-                2
-            ],
-            "password": "VZkm0nZgCb6"
-        },
-        {
-            "id": "1f20728a-99dd-4f4b-bf11-d1d0499ef8cd",
-            "first_name": "Marge",
-            "last_name": "Fitchett",
-            "email": "mfitchett1z@com.com",
-            "courses": [
-                3
-            ],
-            "password": "bZWoi7lzh"
-        },
-        {
-            "id": "8c6c866e-6e82-4037-9b6a-4b42798cf391",
-            "first_name": "Amalia",
-            "last_name": "Coolican",
-            "email": "acoolican20@ox.ac.uk",
-            "courses": [
-                1
-            ],
-            "password": "zDA8m9CkJ"
-        },
-        {
-            "id": "8ce682d7-b609-4950-bd98-cd7b85cee830",
-            "first_name": "Brennen",
-            "last_name": "Reynold",
-            "email": "breynold21@comcast.net",
-            "courses": [
-                3
-            ],
-            "password": "h1Ov2PmOZIZ"
-        },
-        {
-            "id": "16773a13-34e5-4561-a8fe-a1c82efe490d",
-            "first_name": "Myriam",
-            "last_name": "Leblanc",
-            "email": "mleblanc22@vk.com",
-            "courses": [
-                4
-            ],
-            "password": "3o17Hv"
-        },
-        {
-            "id": "cd69c359-caf8-4fd8-bc3f-36796a050b7e",
-            "first_name": "Lebbie",
-            "last_name": "O'Carmody",
-            "email": "locarmody23@soundcloud.com",
-            "courses": [
-                1
-            ],
-            "password": "DBGFaktFmlT0"
-        },
-        {
-            "id": "e8be5e45-d938-4371-bdc9-5f12353a8978",
-            "first_name": "Nicko",
-            "last_name": "Swindin",
-            "email": "nswindin24@gnu.org",
-            "courses": [
-                4
-            ],
-            "password": "lZKgx9"
-        },
-        {
-            "id": "584b2731-de7d-453b-b2e2-fa49032f999f",
-            "first_name": "Marwin",
-            "last_name": "Ozelton",
-            "email": "mozelton25@creativecommons.org",
-            "courses": [
-                2
-            ],
-            "password": "QdFeiIihv3"
-        },
-        {
-            "id": "364dabdf-7bac-4b1c-a0e2-dd3bb6ebe749",
-            "first_name": "Gram",
-            "last_name": "Clara",
-            "email": "gclara26@feedburner.com",
-            "courses": [
-                4
-            ],
-            "password": "z7VXfJAd"
-        },
-        {
-            "id": "63b41b12-c03d-47fb-b691-ab0db087850d",
-            "first_name": "Carlie",
-            "last_name": "Tours",
-            "email": "ctours27@ovh.net",
-            "courses": [
-                2
-            ],
-            "password": "x9238ODP9Gc"
-        },
-        {
-            "id": "c6be5d43-3325-4342-a649-feb59e9c83d0",
-            "first_name": "Lorin",
-            "last_name": "Niblett",
-            "email": "lniblett28@youtu.be",
-            "courses": [
-                1
-            ],
-            "password": "2QJT6o3PpnE"
-        },
-        {
-            "id": "10b9e1c2-bdeb-477c-a022-ade5ec427353",
-            "first_name": "Deny",
-            "last_name": "Simonitto",
-            "email": "dsimonitto29@imgur.com",
-            "courses": [
-                3
-            ],
-            "password": "YFloRdAAyV"
-        },
-        {
-            "id": "0a33fa51-8b53-446b-8ba3-0a2f5de52dda",
-            "first_name": "Pincus",
-            "last_name": "Oakeby",
-            "email": "poakeby2a@amazon.co.jp",
-            "courses": [
-                4
-            ],
-            "password": "x5j8stOC7Gz3"
-        },
-        {
-            "id": "0202fb21-3ceb-4c6d-8868-63320aefd0eb",
-            "first_name": "Rufe",
-            "last_name": "Keynd",
-            "email": "rkeynd2b@tinypic.com",
-            "courses": [
-                3
-            ],
-            "password": "GyRtta7ij"
-        },
-        {
-            "id": "cf48c939-ab01-4b24-a1b5-af8da9b3c32b",
-            "first_name": "Clevie",
-            "last_name": "Corbett",
-            "email": "ccorbett2c@networksolutions.com",
-            "courses": [
-                3
-            ],
-            "password": "5lpqVkZQtbt8"
-        },
-        {
-            "id": "3d4bd374-4db8-4ead-b501-f86b21a7a3a1",
-            "first_name": "Marget",
-            "last_name": "Sherwell",
-            "email": "msherwell2d@aol.com",
-            "courses": [
-                4
-            ],
-            "password": "4lKlwh5eK"
-        },
-        {
-            "id": "f232df63-1ee7-4cd2-9f87-7d1447747dd2",
-            "first_name": "Tedd",
-            "last_name": "Snawdon",
-            "email": "tsnawdon2e@taobao.com",
-            "courses": [
-                3
-            ],
-            "password": "9NcK371"
-        },
-        {
-            "id": "7ddfbd6b-43db-41ce-b7e2-7e73780b05c9",
-            "first_name": "Corby",
-            "last_name": "Scandrett",
-            "email": "cscandrett2f@tripod.com",
-            "courses": [
-                4
-            ],
-            "password": "UBFxMm"
-        },
-        {
-            "id": "e13551dd-ac59-44c5-b801-c913cd9a0ed6",
-            "first_name": "Karilynn",
-            "last_name": "Gatlin",
-            "email": "kgatlin2g@arizona.edu",
-            "courses": [
-                1
-            ],
-            "password": "84AsseQc6U2P"
-        },
-        {
-            "id": "852cbfa2-dffe-496b-938d-ee6be7620e5a",
-            "first_name": "Gottfried",
-            "last_name": "Echlin",
-            "email": "gechlin2h@cnn.com",
-            "courses": [
-                3
-            ],
-            "password": "2iUNtd"
-        },
-        {
-            "id": "0f1ec7af-6963-41a6-80d8-f5c4e90f59a9",
-            "first_name": "Zacherie",
-            "last_name": "Higford",
-            "email": "zhigford2i@webeden.co.uk",
-            "courses": [
-                3
-            ],
-            "password": "sk90xzws"
-        },
-        {
-            "id": "2e0521f6-f26f-4afe-be69-454a11220743",
-            "first_name": "Celisse",
-            "last_name": "Menham",
-            "email": "cmenham2j@bloomberg.com",
-            "courses": [
-                3
-            ],
-            "password": "TLEW71p"
-        },
-        {
-            "id": "46f64eae-5ca1-4e02-82e9-a7c239b17e5c",
-            "first_name": "Joachim",
-            "last_name": "Nozzolinii",
-            "email": "jnozzolinii2k@ucla.edu",
-            "courses": [
-                4
-            ],
-            "password": "M6Qsw6T6u"
-        },
-        {
-            "id": "a76002c4-f977-40d5-940e-cf27386eca26",
-            "first_name": "Sanford",
-            "last_name": "Menezes",
-            "email": "smenezes2l@comcast.net",
-            "courses": [
-                4
-            ],
-            "password": "5GyTBSd"
-        },
-        {
-            "id": "80c9ac2d-94e6-4a5a-a51d-7280dfe775b4",
-            "first_name": "Odell",
-            "last_name": "Buxton",
-            "email": "obuxton2m@unesco.org",
-            "courses": [
-                3
-            ],
-            "password": "way9MqmD208J"
-        },
-        {
-            "id": "13377724-f899-4409-9bcb-c1f43a128c91",
-            "first_name": "Odele",
-            "last_name": "Goodram",
-            "email": "ogoodram2n@businessinsider.com",
-            "courses": [
-                3
-            ],
-            "password": "gpgUapOTg"
-        },
-        {
-            "id": "8ff70ae5-ed4b-453c-b974-54e372b7d538",
-            "first_name": "Perice",
-            "last_name": "Trunby",
-            "email": "ptrunby2o@mit.edu",
-            "courses": [
-                3
-            ],
-            "password": "UIXEAu"
-        },
-        {
-            "id": "b51b5a5f-deda-4b45-bb15-2d22b20702cc",
-            "first_name": "Mame",
-            "last_name": "Yanov",
-            "email": "myanov2p@businessinsider.com",
-            "courses": [
-                4
-            ],
-            "password": "ZzRfw6fq"
-        },
-        {
-            "id": "c901adfe-b235-4621-8d34-119a2139541f",
-            "first_name": "Ynes",
-            "last_name": "Dankov",
-            "email": "ydankov2q@fotki.com",
-            "courses": [
-                2
-            ],
-            "password": "FAmGGEW1f"
-        },
-        {
-            "id": "1451deef-72a6-4597-9c43-aa8d62167365",
-            "first_name": "Alanah",
-            "last_name": "Braemer",
-            "email": "abraemer2r@usgs.gov",
-            "courses": [
-                3
-            ],
-            "password": "NS4HLVE9z"
-        }
-    ],
-    "courses": [
-        {
-            "id": 1,
-            "name": "JavaScript",
-            "description": "Опис курса JavaScript",
-            "assigments": [
-                1,
-                3,
-                4
-            ],
-            "material": [
-                1,
-                3,
-                4
-            ]
-        },
-        {
-            "id": 2,
-            "name": "QA Testing",
-            "description": "Опис курса QA Testing"
-        },
-        {
-            "id": 3,
-            "name": "PHP & WordPress",
-            "description": "Опис курса PHP & WordPress"
-        },
-        {
-            "id": 4,
-            "name": "Java",
-            "description": "Опис курса Java"
-        }
-    ],
-    "assigments": [
-        {
-            "id": 1,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 2,
-            "created-by": "lec-2",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 3,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 4,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        }
-    ],
-    "material": [
-        {
-            "id": 1,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 2,
-            "created-by": "lec-2",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 3,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        },
-        {
-            "id": 4,
-            "created-by": "lec-1",
-            "url": "https://github.com/peranovicc"
-        }
-    ]
+  "lecturers": [
+    {
+      "id": "lec-1",
+      "name": "lecturer1",
+      "password": "lecturer1",
+      "email": "lecturer1@test.com",
+      "courses": [
+        1
+      ]
+    },
+    {
+      "id": "lec-2",
+      "name": "lecturer2",
+      "password": "lecturer2",
+      "email": "lecturer2@test.com",
+      "courses": [
+        2
+      ]
+    },
+    {
+      "id": "TEST",
+      "name": "lecturer2",
+      "password": "lecturer2",
+      "email": "lecturer2@test.com",
+      "courses": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "teeeeeest",
+      "name": "teeeeeest",
+      "password": "teeeeeest",
+      "email": "teeeeeest@test.com",
+      "courses": [
+        2,
+        3
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "7fa48b92-1bf3-49bd-b331-dc20e0312654",
+      "first_name": "Pera",
+      "last_name": "Peric",
+      "email": "student1@test.com",
+      "courses": [
+        1,
+        3
+      ],
+      "password": "student1"
+    },
+    {
+      "id": "780b798a-dc3d-4639-a519-52789c4c8c4b",
+      "first_name": "Sharia",
+      "last_name": "Hennemann",
+      "email": "shennemann1@state.gov",
+      "courses": [
+        2
+      ],
+      "password": "km0TCsRULZ"
+    },
+    {
+      "id": "29a763c7-5849-4719-8077-fd09d8d4547d",
+      "first_name": "Rutger",
+      "last_name": "Luff",
+      "email": "rluff2@ca.gov",
+      "courses": [
+        3
+      ],
+      "password": "LeEgMOpR"
+    },
+    {
+      "id": "b8469b82-f07c-4c5b-bdea-8c7b905c44ae",
+      "first_name": "Gerry",
+      "last_name": "Dando",
+      "email": "gdando3@wiley.com",
+      "courses": [
+        4
+      ],
+      "password": "JhEyLwv"
+    },
+    {
+      "id": "5a08ea6a-22b1-442d-8949-2afee3256834",
+      "first_name": "Ambrosio",
+      "last_name": "Upex",
+      "email": "aupex4@shinystat.com",
+      "courses": [
+        2
+      ],
+      "password": "Q1zJGzh"
+    },
+    {
+      "id": "84700572-6631-47db-b5e7-8a952dc58448",
+      "first_name": "Jan",
+      "last_name": "Luxen",
+      "email": "jluxen5@apple.com",
+      "courses": [
+        2
+      ],
+      "password": "cdluwrQYTGaN"
+    },
+    {
+      "id": "e1a55c22-951b-4e1f-9ab0-c8fa47ca8a34",
+      "first_name": "Donaugh",
+      "last_name": "Burvill",
+      "email": "dburvill6@who.int",
+      "courses": [
+        1
+      ],
+      "password": "YDZxqB"
+    },
+    {
+      "id": "899583de-4ab2-4b91-8893-75367af9a215",
+      "first_name": "Quentin",
+      "last_name": "Whines",
+      "email": "qwhines7@utexas.edu",
+      "courses": [
+        3
+      ],
+      "password": "bDYdNGbL970"
+    },
+    {
+      "id": "17c7bd2a-fa28-47a8-9a30-b3a69975f399",
+      "first_name": "Chery",
+      "last_name": "McLeoid",
+      "email": "cmcleoid8@biglobe.ne.jp",
+      "courses": [
+        1
+      ],
+      "password": "15vTeWTYy9"
+    },
+    {
+      "id": "18f250da-55a3-4f55-9f4f-4aeb3afca5d5",
+      "first_name": "Reggie",
+      "last_name": "Fowley",
+      "email": "rfowley9@cornell.edu",
+      "courses": [
+        1
+      ],
+      "password": "eKxpVNWm"
+    },
+    {
+      "id": "e685dbe2-3d79-4529-acab-077c9aa74128",
+      "first_name": "Devinne",
+      "last_name": "Ruthen",
+      "email": "druthena@360.cn",
+      "courses": [
+        4
+      ],
+      "password": "HZWXLKCx9"
+    },
+    {
+      "id": "fa69bf06-78ea-4a02-8b0e-e240b0b16f55",
+      "first_name": "Audre",
+      "last_name": "Molesworth",
+      "email": "amolesworthb@privacy.gov.au",
+      "courses": [
+        3
+      ],
+      "password": "gjCXmiG"
+    },
+    {
+      "id": "c5111cbb-6f1c-412c-9b83-198376a87d8a",
+      "first_name": "Job",
+      "last_name": "Edginton",
+      "email": "jedgintonc@myspace.com",
+      "courses": [
+        1
+      ],
+      "password": "8QV2vcct"
+    },
+    {
+      "id": "4663dd28-b456-49b5-b44f-c2a8d7681c08",
+      "first_name": "Mikael",
+      "last_name": "McEachern",
+      "email": "mmceachernd@who.int",
+      "courses": [
+        2
+      ],
+      "password": "WuIebG3E"
+    },
+    {
+      "id": "e53311a7-ecdb-4690-8052-f05ed3bd8393",
+      "first_name": "Jolynn",
+      "last_name": "Guillet",
+      "email": "jguillete@w3.org",
+      "courses": [
+        1
+      ],
+      "password": "lfbB0c"
+    },
+    {
+      "id": "2e039b01-61b0-4470-a09e-0c2b71fc4680",
+      "first_name": "Cherish",
+      "last_name": "Childers",
+      "email": "cchildersf@cbc.ca",
+      "courses": [
+        2
+      ],
+      "password": "IMNvap"
+    },
+    {
+      "id": "0187f172-f198-49b8-8588-45c8fe1de949",
+      "first_name": "Hillary",
+      "last_name": "Haack",
+      "email": "hhaackg@quantcast.com",
+      "courses": [
+        3
+      ],
+      "password": "HsaeiBK3C"
+    },
+    {
+      "id": "f7ee3c2e-ce37-4934-ba60-def4984d4f3a",
+      "first_name": "Quill",
+      "last_name": "Collumbell",
+      "email": "qcollumbellh@discuz.net",
+      "courses": [
+        3
+      ],
+      "password": "nafTKBn"
+    },
+    {
+      "id": "36eae79c-2cb8-442d-8ef9-8bb0080bd713",
+      "first_name": "Raimund",
+      "last_name": "McLugaish",
+      "email": "rmclugaishi@tmall.com",
+      "courses": [
+        4
+      ],
+      "password": "lqRcdN"
+    },
+    {
+      "id": "94732ddc-9e59-4967-ab50-9bca74aecdca",
+      "first_name": "Clarisse",
+      "last_name": "Geck",
+      "email": "cgeckj@statcounter.com",
+      "courses": [
+        2
+      ],
+      "password": "4esRZ2Pm"
+    },
+    {
+      "id": "2227b76a-f584-496a-9910-8c3fe16d177d",
+      "first_name": "Fleming",
+      "last_name": "Laight",
+      "email": "flaightk@yandex.ru",
+      "courses": [
+        2
+      ],
+      "password": "Ehj9tc1F2l"
+    },
+    {
+      "id": "675de583-217b-41cf-bafe-9f2bfd44936f",
+      "first_name": "Neilla",
+      "last_name": "Rasp",
+      "email": "nraspl@macromedia.com",
+      "courses": [
+        1
+      ],
+      "password": "Xw81JxGz"
+    },
+    {
+      "id": "7c8ba1c0-1a4a-495a-bcc0-e3ce22650ce7",
+      "first_name": "Lorianna",
+      "last_name": "Candlin",
+      "email": "lcandlinm@wsj.com",
+      "courses": [
+        3
+      ],
+      "password": "sVq1y5Nnul"
+    },
+    {
+      "id": "f70e1e34-a140-4591-8f29-db0bd1005396",
+      "first_name": "Sydel",
+      "last_name": "Boat",
+      "email": "sboatn@studiopress.com",
+      "courses": [
+        4
+      ],
+      "password": "oklDkPbcz6"
+    },
+    {
+      "id": "6640bf26-9a85-4351-8050-91c105331917",
+      "first_name": "Hollyanne",
+      "last_name": "Dignon",
+      "email": "hdignono@pinterest.com",
+      "courses": [
+        1
+      ],
+      "password": "mBSakHMM"
+    },
+    {
+      "id": "e02498d2-1f5e-4175-a318-792317041d94",
+      "first_name": "Yorker",
+      "last_name": "Rodriguez",
+      "email": "yrodriguezp@nba.com",
+      "courses": [
+        1
+      ],
+      "password": "QmqpVgcdMca"
+    },
+    {
+      "id": "24abed98-bce8-49c8-ae8e-2b9106f8ae81",
+      "first_name": "Bibby",
+      "last_name": "Blackhall",
+      "email": "bblackhallq@thetimes.co.uk",
+      "courses": [
+        1
+      ],
+      "password": "HT3MgDzPaW"
+    },
+    {
+      "id": "0d3572f2-4b53-473d-81b1-9b6702d00ae7",
+      "first_name": "Birgitta",
+      "last_name": "Sanja",
+      "email": "bsanjar@marriott.com",
+      "courses": [
+        2
+      ],
+      "password": "uYsP5Y0jyK"
+    },
+    {
+      "id": "dd35b976-4736-4bf2-aa5e-2ebb9ae69caa",
+      "first_name": "Marshal",
+      "last_name": "Maysor",
+      "email": "mmaysors@lycos.com",
+      "courses": [
+        1
+      ],
+      "password": "tm502dLGWqXP"
+    },
+    {
+      "id": "dc6fcb1b-c75c-40b8-9cfa-6c93a664a69b",
+      "first_name": "Godfrey",
+      "last_name": "Keary",
+      "email": "gkearyt@elpais.com",
+      "courses": [
+        2
+      ],
+      "password": "zeGEjy"
+    },
+    {
+      "id": "fc220ea8-808b-434b-be1d-8f10f8f0619f",
+      "first_name": "Brandise",
+      "last_name": "Forsythe",
+      "email": "bforsytheu@samsung.com",
+      "courses": [
+        2
+      ],
+      "password": "C6Me9OYI"
+    },
+    {
+      "id": "61414fc8-688d-493f-b6da-44a4f69c6ee4",
+      "first_name": "Kore",
+      "last_name": "Meany",
+      "email": "kmeanyv@businessinsider.com",
+      "courses": [
+        3
+      ],
+      "password": "rax5V2dHny"
+    },
+    {
+      "id": "344e8e04-61ab-4c26-9253-0298bb9c2e45",
+      "first_name": "Roma",
+      "last_name": "Northcliffe",
+      "email": "rnorthcliffew@behance.net",
+      "courses": [
+        3
+      ],
+      "password": "o2kqRSq"
+    },
+    {
+      "id": "a0d3fb5b-677e-4405-835e-c6064f1e287f",
+      "first_name": "Lucas",
+      "last_name": "Tollet",
+      "email": "ltolletx@fema.gov",
+      "courses": [
+        3
+      ],
+      "password": "OQBZ9XgL"
+    },
+    {
+      "id": "4226417d-32dc-498d-a490-ff3e5817bb74",
+      "first_name": "Lorianne",
+      "last_name": "Nansom",
+      "email": "lnansomy@gnu.org",
+      "courses": [
+        2
+      ],
+      "password": "J31Jgibp7"
+    },
+    {
+      "id": "fa0e5fe7-50af-4ebb-892d-48b1a52ea18e",
+      "first_name": "Irina",
+      "last_name": "Yelden",
+      "email": "iyeldenz@japanpost.jp",
+      "courses": [
+        3
+      ],
+      "password": "9DT1SSubF"
+    },
+    {
+      "id": "4a513d47-2e08-47bf-bf25-5fc61dbc133e",
+      "first_name": "Mora",
+      "last_name": "Connerly",
+      "email": "mconnerly10@blogtalkradio.com",
+      "courses": [
+        2
+      ],
+      "password": "p2lxe0zD"
+    },
+    {
+      "id": "8d921b99-e11c-4a11-b247-d18217d0ca71",
+      "first_name": "Cam",
+      "last_name": "Doni",
+      "email": "cdoni11@hc360.com",
+      "courses": [
+        2
+      ],
+      "password": "ID61r3kJvMnN"
+    },
+    {
+      "id": "b09f948d-eabc-43e9-96fe-22601a388739",
+      "first_name": "Gillan",
+      "last_name": "Longmead",
+      "email": "glongmead12@live.com",
+      "courses": [
+        1
+      ],
+      "password": "IeT93q8"
+    },
+    {
+      "id": "8fb2c8b1-715d-4313-b5b9-956b07bea228",
+      "first_name": "Ossie",
+      "last_name": "Banville",
+      "email": "obanville13@netlog.com",
+      "courses": [
+        1
+      ],
+      "password": "pV7eRrrW"
+    },
+    {
+      "id": "1737acf2-b9ed-40e0-bf9b-e74d9342ace3",
+      "first_name": "Mora",
+      "last_name": "Tattoo",
+      "email": "mtattoo14@blinklist.com",
+      "courses": [
+        3
+      ],
+      "password": "mHrRiyWoL"
+    },
+    {
+      "id": "0cc1e1e8-a7ae-4d2d-b00a-8a7571240397",
+      "first_name": "Franchot",
+      "last_name": "Mewburn",
+      "email": "fmewburn15@discuz.net",
+      "courses": [
+        2
+      ],
+      "password": "bvR4Rx4"
+    },
+    {
+      "id": "55279f0c-7712-4db3-a7e5-082fd1286110",
+      "first_name": "Kaitlyn",
+      "last_name": "Tunno",
+      "email": "ktunno16@earthlink.net",
+      "courses": [
+        4
+      ],
+      "password": "QT2pCIZXp"
+    },
+    {
+      "id": "4bc2a20b-e562-4f88-a6f7-e7a15fb41f16",
+      "first_name": "Ianthe",
+      "last_name": "Perrelli",
+      "email": "iperrelli17@webnode.com",
+      "courses": [
+        4
+      ],
+      "password": "39tI1LcuxOtQ"
+    },
+    {
+      "id": "72e98eac-90e7-47a9-bc26-1fea50ea4db1",
+      "first_name": "Melonie",
+      "last_name": "d'Arcy",
+      "email": "mdarcy18@ameblo.jp",
+      "courses": [
+        4
+      ],
+      "password": "1KutLXLepTGf"
+    },
+    {
+      "id": "25d967db-8a85-4f46-af4e-cf912da3f435",
+      "first_name": "Fayette",
+      "last_name": "Aspenlon",
+      "email": "faspenlon19@digg.com",
+      "courses": [
+        1
+      ],
+      "password": "HjkCvqm8"
+    },
+    {
+      "id": "60fb8067-78a9-4937-b77e-a1521dc72951",
+      "first_name": "Michael",
+      "last_name": "Seakes",
+      "email": "mseakes1a@cornell.edu",
+      "courses": [
+        1
+      ],
+      "password": "4ppCev"
+    },
+    {
+      "id": "647b626d-9815-48c8-9141-bc6958b89a55",
+      "first_name": "Bard",
+      "last_name": "Jeanin",
+      "email": "bjeanin1b@archive.org",
+      "courses": [
+        2
+      ],
+      "password": "GpTZweavEw"
+    },
+    {
+      "id": "55afa3fc-79f5-4537-a4b8-16ae504035e5",
+      "first_name": "Ellynn",
+      "last_name": "Sugar",
+      "email": "esugar1c@jiathis.com",
+      "courses": [
+        4
+      ],
+      "password": "SqQoGTVsl"
+    },
+    {
+      "id": "3ed6560e-5985-453f-b3d6-083eca64394d",
+      "first_name": "Myranda",
+      "last_name": "Message",
+      "email": "mmessage1d@hexun.com",
+      "courses": [
+        3
+      ],
+      "password": "9q8Lytl"
+    },
+    {
+      "id": "bdea457b-ccef-4865-9b8b-2fb672000eca",
+      "first_name": "Devan",
+      "last_name": "Usborn",
+      "email": "dusborn1e@sfgate.com",
+      "courses": [
+        1
+      ],
+      "password": "Do98tvQEAY"
+    },
+    {
+      "id": "0595f954-c4c9-444b-9ecf-0aaa5416ad98",
+      "first_name": "Meredithe",
+      "last_name": "Raw",
+      "email": "mraw1f@bizjournals.com",
+      "courses": [
+        3
+      ],
+      "password": "CVthd8f"
+    },
+    {
+      "id": "d1e6275d-2bfa-442e-a7b8-4b6290785336",
+      "first_name": "Nikoletta",
+      "last_name": "Clewes",
+      "email": "nclewes1g@disqus.com",
+      "courses": [
+        4
+      ],
+      "password": "sqFYJ2"
+    },
+    {
+      "id": "8fd1de14-def9-45dd-80f8-6c8c9d466f51",
+      "first_name": "Shelagh",
+      "last_name": "Dashper",
+      "email": "sdashper1h@reverbnation.com",
+      "courses": [
+        1
+      ],
+      "password": "xpGInAu"
+    },
+    {
+      "id": "1fc310d3-93a5-4749-8dbb-d92d9dc9806a",
+      "first_name": "Madelin",
+      "last_name": "Malkin",
+      "email": "mmalkin1i@time.com",
+      "courses": [
+        1
+      ],
+      "password": "yirQUz9P"
+    },
+    {
+      "id": "734854c3-1ad4-42d2-82e3-4849493ce819",
+      "first_name": "Franklin",
+      "last_name": "Cattanach",
+      "email": "fcattanach1j@nytimes.com",
+      "courses": [
+        1
+      ],
+      "password": "CD4h3AHHJ95"
+    },
+    {
+      "id": "6ddb0231-c973-460a-8cab-432091bc85e0",
+      "first_name": "Loutitia",
+      "last_name": "Wilfinger",
+      "email": "lwilfinger1k@google.de",
+      "courses": [
+        2
+      ],
+      "password": "tFEcLOd"
+    },
+    {
+      "id": "8b160e9e-af08-4ada-9776-40f727e5e98e",
+      "first_name": "Shawn",
+      "last_name": "Ogus",
+      "email": "sogus1l@wikimedia.org",
+      "courses": [
+        2
+      ],
+      "password": "aE846ug"
+    },
+    {
+      "id": "b14496cc-fdef-4209-bb8f-8af49222393f",
+      "first_name": "Thayne",
+      "last_name": "Pickthorne",
+      "email": "tpickthorne1m@gravatar.com",
+      "courses": [
+        1
+      ],
+      "password": "V3exjDJN2"
+    },
+    {
+      "id": "dba778db-e339-48ea-96d6-4462119c9fab",
+      "first_name": "Amalea",
+      "last_name": "Pell",
+      "email": "apell1n@theguardian.com",
+      "courses": [
+        4
+      ],
+      "password": "VW9eorX"
+    },
+    {
+      "id": "5a35f2ad-e8b4-4e70-9cf9-2f3d4e5dc17f",
+      "first_name": "Livvie",
+      "last_name": "Sharpus",
+      "email": "lsharpus1o@hao123.com",
+      "courses": [
+        1
+      ],
+      "password": "YcZR9i6tY9"
+    },
+    {
+      "id": "eda3d187-4d2b-4519-99e5-412b7cc0ae06",
+      "first_name": "Rog",
+      "last_name": "Fuke",
+      "email": "rfuke1p@xrea.com",
+      "courses": [
+        2
+      ],
+      "password": "6HfWlrzoDn"
+    },
+    {
+      "id": "8387684e-2b07-4c7d-96fa-6d8af90ebdd4",
+      "first_name": "Emmalee",
+      "last_name": "Sollime",
+      "email": "esollime1q@nhs.uk",
+      "courses": [
+        1
+      ],
+      "password": "EeBc7t"
+    },
+    {
+      "id": "d69cda90-85ae-4d59-ae96-2dff4f39682c",
+      "first_name": "Parrnell",
+      "last_name": "Gandrich",
+      "email": "pgandrich1r@myspace.com",
+      "courses": [
+        2
+      ],
+      "password": "t0LcEdP"
+    },
+    {
+      "id": "8c841837-a3cd-4fca-9be8-9eb4073a11bb",
+      "first_name": "Demetria",
+      "last_name": "Growy",
+      "email": "dgrowy1s@boston.com",
+      "courses": [
+        4
+      ],
+      "password": "cGrxS1iO"
+    },
+    {
+      "id": "01907c86-eba9-4f47-b31c-eedaed5257ea",
+      "first_name": "Daron",
+      "last_name": "Swadden",
+      "email": "dswadden1t@npr.org",
+      "courses": [
+        4
+      ],
+      "password": "VfsCgEhsxpYC"
+    },
+    {
+      "id": "d8f87f65-3fa5-4401-9443-b4b95f57756e",
+      "first_name": "Margarete",
+      "last_name": "Davage",
+      "email": "mdavage1u@businessinsider.com",
+      "courses": [
+        2
+      ],
+      "password": "C5R0S3wfKN5u"
+    },
+    {
+      "id": "4aa94b75-462b-4f41-9209-5ca92a1900c3",
+      "first_name": "Jeremy",
+      "last_name": "Lindenfeld",
+      "email": "jlindenfeld1v@addthis.com",
+      "courses": [
+        4
+      ],
+      "password": "nICOMkM"
+    },
+    {
+      "id": "b530d486-ba0b-4bea-83b9-9d43838a30fe",
+      "first_name": "Hildy",
+      "last_name": "Cornthwaite",
+      "email": "hcornthwaite1w@deviantart.com",
+      "courses": [
+        3
+      ],
+      "password": "bgZgnL"
+    },
+    {
+      "id": "78608850-626f-4592-bbd7-1ed91ee099dd",
+      "first_name": "Harmony",
+      "last_name": "Taffley",
+      "email": "htaffley1x@google.com.br",
+      "courses": [
+        4
+      ],
+      "password": "bhu7WxNTj4SG"
+    },
+    {
+      "id": "93d30f85-0e43-4c6c-97ee-b2022b10df51",
+      "first_name": "Mellisa",
+      "last_name": "Marks",
+      "email": "mmarks1y@google.ru",
+      "courses": [
+        2
+      ],
+      "password": "VZkm0nZgCb6"
+    },
+    {
+      "id": "1f20728a-99dd-4f4b-bf11-d1d0499ef8cd",
+      "first_name": "Marge",
+      "last_name": "Fitchett",
+      "email": "mfitchett1z@com.com",
+      "courses": [
+        3
+      ],
+      "password": "bZWoi7lzh"
+    },
+    {
+      "id": "8c6c866e-6e82-4037-9b6a-4b42798cf391",
+      "first_name": "Amalia",
+      "last_name": "Coolican",
+      "email": "acoolican20@ox.ac.uk",
+      "courses": [
+        1
+      ],
+      "password": "zDA8m9CkJ"
+    },
+    {
+      "id": "8ce682d7-b609-4950-bd98-cd7b85cee830",
+      "first_name": "Brennen",
+      "last_name": "Reynold",
+      "email": "breynold21@comcast.net",
+      "courses": [
+        3
+      ],
+      "password": "h1Ov2PmOZIZ"
+    },
+    {
+      "id": "16773a13-34e5-4561-a8fe-a1c82efe490d",
+      "first_name": "Myriam",
+      "last_name": "Leblanc",
+      "email": "mleblanc22@vk.com",
+      "courses": [
+        4
+      ],
+      "password": "3o17Hv"
+    },
+    {
+      "id": "cd69c359-caf8-4fd8-bc3f-36796a050b7e",
+      "first_name": "Lebbie",
+      "last_name": "O'Carmody",
+      "email": "locarmody23@soundcloud.com",
+      "courses": [
+        1
+      ],
+      "password": "DBGFaktFmlT0"
+    },
+    {
+      "id": "e8be5e45-d938-4371-bdc9-5f12353a8978",
+      "first_name": "Nicko",
+      "last_name": "Swindin",
+      "email": "nswindin24@gnu.org",
+      "courses": [
+        4
+      ],
+      "password": "lZKgx9"
+    },
+    {
+      "id": "584b2731-de7d-453b-b2e2-fa49032f999f",
+      "first_name": "Marwin",
+      "last_name": "Ozelton",
+      "email": "mozelton25@creativecommons.org",
+      "courses": [
+        2
+      ],
+      "password": "QdFeiIihv3"
+    },
+    {
+      "id": "364dabdf-7bac-4b1c-a0e2-dd3bb6ebe749",
+      "first_name": "Gram",
+      "last_name": "Clara",
+      "email": "gclara26@feedburner.com",
+      "courses": [
+        4
+      ],
+      "password": "z7VXfJAd"
+    },
+    {
+      "id": "63b41b12-c03d-47fb-b691-ab0db087850d",
+      "first_name": "Carlie",
+      "last_name": "Tours",
+      "email": "ctours27@ovh.net",
+      "courses": [
+        2
+      ],
+      "password": "x9238ODP9Gc"
+    },
+    {
+      "id": "c6be5d43-3325-4342-a649-feb59e9c83d0",
+      "first_name": "Lorin",
+      "last_name": "Niblett",
+      "email": "lniblett28@youtu.be",
+      "courses": [
+        1
+      ],
+      "password": "2QJT6o3PpnE"
+    },
+    {
+      "id": "10b9e1c2-bdeb-477c-a022-ade5ec427353",
+      "first_name": "Deny",
+      "last_name": "Simonitto",
+      "email": "dsimonitto29@imgur.com",
+      "courses": [
+        3
+      ],
+      "password": "YFloRdAAyV"
+    },
+    {
+      "id": "0a33fa51-8b53-446b-8ba3-0a2f5de52dda",
+      "first_name": "Pincus",
+      "last_name": "Oakeby",
+      "email": "poakeby2a@amazon.co.jp",
+      "courses": [
+        4
+      ],
+      "password": "x5j8stOC7Gz3"
+    },
+    {
+      "id": "0202fb21-3ceb-4c6d-8868-63320aefd0eb",
+      "first_name": "Rufe",
+      "last_name": "Keynd",
+      "email": "rkeynd2b@tinypic.com",
+      "courses": [
+        3
+      ],
+      "password": "GyRtta7ij"
+    },
+    {
+      "id": "cf48c939-ab01-4b24-a1b5-af8da9b3c32b",
+      "first_name": "Clevie",
+      "last_name": "Corbett",
+      "email": "ccorbett2c@networksolutions.com",
+      "courses": [
+        3
+      ],
+      "password": "5lpqVkZQtbt8"
+    },
+    {
+      "id": "3d4bd374-4db8-4ead-b501-f86b21a7a3a1",
+      "first_name": "Marget",
+      "last_name": "Sherwell",
+      "email": "msherwell2d@aol.com",
+      "courses": [
+        4
+      ],
+      "password": "4lKlwh5eK"
+    },
+    {
+      "id": "f232df63-1ee7-4cd2-9f87-7d1447747dd2",
+      "first_name": "Tedd",
+      "last_name": "Snawdon",
+      "email": "tsnawdon2e@taobao.com",
+      "courses": [
+        3
+      ],
+      "password": "9NcK371"
+    },
+    {
+      "id": "7ddfbd6b-43db-41ce-b7e2-7e73780b05c9",
+      "first_name": "Corby",
+      "last_name": "Scandrett",
+      "email": "cscandrett2f@tripod.com",
+      "courses": [
+        4
+      ],
+      "password": "UBFxMm"
+    },
+    {
+      "id": "e13551dd-ac59-44c5-b801-c913cd9a0ed6",
+      "first_name": "Karilynn",
+      "last_name": "Gatlin",
+      "email": "kgatlin2g@arizona.edu",
+      "courses": [
+        1
+      ],
+      "password": "84AsseQc6U2P"
+    },
+    {
+      "id": "852cbfa2-dffe-496b-938d-ee6be7620e5a",
+      "first_name": "Gottfried",
+      "last_name": "Echlin",
+      "email": "gechlin2h@cnn.com",
+      "courses": [
+        3
+      ],
+      "password": "2iUNtd"
+    },
+    {
+      "id": "0f1ec7af-6963-41a6-80d8-f5c4e90f59a9",
+      "first_name": "Zacherie",
+      "last_name": "Higford",
+      "email": "zhigford2i@webeden.co.uk",
+      "courses": [
+        3
+      ],
+      "password": "sk90xzws"
+    },
+    {
+      "id": "2e0521f6-f26f-4afe-be69-454a11220743",
+      "first_name": "Celisse",
+      "last_name": "Menham",
+      "email": "cmenham2j@bloomberg.com",
+      "courses": [
+        3
+      ],
+      "password": "TLEW71p"
+    },
+    {
+      "id": "46f64eae-5ca1-4e02-82e9-a7c239b17e5c",
+      "first_name": "Joachim",
+      "last_name": "Nozzolinii",
+      "email": "jnozzolinii2k@ucla.edu",
+      "courses": [
+        4
+      ],
+      "password": "M6Qsw6T6u"
+    },
+    {
+      "id": "a76002c4-f977-40d5-940e-cf27386eca26",
+      "first_name": "Sanford",
+      "last_name": "Menezes",
+      "email": "smenezes2l@comcast.net",
+      "courses": [
+        4
+      ],
+      "password": "5GyTBSd"
+    },
+    {
+      "id": "80c9ac2d-94e6-4a5a-a51d-7280dfe775b4",
+      "first_name": "Odell",
+      "last_name": "Buxton",
+      "email": "obuxton2m@unesco.org",
+      "courses": [
+        3
+      ],
+      "password": "way9MqmD208J"
+    },
+    {
+      "id": "13377724-f899-4409-9bcb-c1f43a128c91",
+      "first_name": "Odele",
+      "last_name": "Goodram",
+      "email": "ogoodram2n@businessinsider.com",
+      "courses": [
+        3
+      ],
+      "password": "gpgUapOTg"
+    },
+    {
+      "id": "8ff70ae5-ed4b-453c-b974-54e372b7d538",
+      "first_name": "Perice",
+      "last_name": "Trunby",
+      "email": "ptrunby2o@mit.edu",
+      "courses": [
+        3
+      ],
+      "password": "UIXEAu"
+    },
+    {
+      "id": "b51b5a5f-deda-4b45-bb15-2d22b20702cc",
+      "first_name": "Mame",
+      "last_name": "Yanov",
+      "email": "myanov2p@businessinsider.com",
+      "courses": [
+        4
+      ],
+      "password": "ZzRfw6fq"
+    },
+    {
+      "id": "c901adfe-b235-4621-8d34-119a2139541f",
+      "first_name": "Ynes",
+      "last_name": "Dankov",
+      "email": "ydankov2q@fotki.com",
+      "courses": [
+        2
+      ],
+      "password": "FAmGGEW1f"
+    },
+    {
+      "id": "1451deef-72a6-4597-9c43-aa8d62167365",
+      "first_name": "Alanah",
+      "last_name": "Braemer",
+      "email": "abraemer2r@usgs.gov",
+      "courses": [
+        3
+      ],
+      "password": "NS4HLVE9z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "description": "Опис курса JavaScript",
+      "assigments": [
+        1,
+        3,
+        4
+      ],
+      "material": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "QA Testing",
+      "description": "Опис курса QA Testing"
+    },
+    {
+      "id": 3,
+      "name": "PHP & WordPress",
+      "description": "Опис курса PHP & WordPress"
+    },
+    {
+      "id": 4,
+      "name": "Java",
+      "description": "Опис курса Java"
+    }
+  ],
+  "assigments": [
+    {
+      "id": 1,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 2,
+      "created-by": "lec-2",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 3,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 4,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    }
+  ],
+  "material": [
+    {
+      "id": 1,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 2,
+      "created-by": "lec-2",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 3,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    },
+    {
+      "id": 4,
+      "created-by": "lec-1",
+      "url": "https://github.com/peranovicc"
+    }
+  ]
 }
