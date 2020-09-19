@@ -17,6 +17,15 @@
             "courses": [
                 2
             ]
+        },
+        {
+            "id": "TEST",
+            "name": "lecturer2",
+            "password": "lecturer2",
+            "email": "lecturer2@test.com",
+            "courses": [
+                3,2
+            ]
         }
     ],
     "students": [
